@@ -1,0 +1,17 @@
+{
+  "maple-bourbon-sour": {
+    "title": "Maple Bourbon Sour",
+    "date": "2018-12-12T15:13:33.000Z",
+    "tags": [
+      "bourbon",
+      "maple-syrup",
+      "lemon",
+      "egg",
+      "shaken"
+    ],
+    "featured": true,
+    "content": "\n{{< wrap >}}\n{{< ingredients\n  \"2 oz bourbon\"\n  \"¾ oz lemon juice\"\n  \"¾ oz real maple syrup\"\n  \"1 egg white\"\n>}}\n\n\n{{< instructions >}}\n[Dry shake](/techniques/shaking/#dry-shaking) in a shaker without ice. Add ice and shake vigorously. [Double strain](/techniques/straining/#double-straining) into a coupe.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-12-12T10:13:33-05:00",
+    "basename": "maple-bourbon-sour"
+  }
+}
