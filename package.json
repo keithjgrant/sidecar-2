@@ -5,15 +5,19 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
+    "dev:static": "next build && next export && https-server out",
     "build": "next build",
     "start": "next start",
     "data": "m2j -c -w 0 -o static/drinks.json drinks/*.md",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export": "next build && next export"
   },
   "author": "Keith J. Grant",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "next": "^7.0.2",
+    "node-sass": "^4.11.0",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-markdown": "^4.0.4"
