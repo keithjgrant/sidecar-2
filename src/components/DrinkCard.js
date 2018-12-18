@@ -47,13 +47,6 @@ export default function DrinkCard({drink}) {
             </div>
           ) : null}
           <IngredientList items={drink.ingredients} />
-          {drink.garnish ? (
-            <React.Fragment>
-              <p className="garnish">Garnish:</p>
-              <IngredientList items={drink.garnish} />
-            </React.Fragment>
-          ) : null}
-
           <div className="e-instructions">
             <Markdown source={drink.content} />
           </div>

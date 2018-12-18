@@ -68,10 +68,9 @@
     &::before {
       position: absolute;
       top: 0;
-      left: -0.6em;
+      left: -0.9em;
       content: '\2022 ';
       color: $brand-primary;
-      font-size: 1.4em;
       line-height: 1;
     }
   }

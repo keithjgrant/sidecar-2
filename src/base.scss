@@ -10,12 +10,14 @@ body {
   );
   background-repeat: no-repeat;
   font-family: $font-body;
+  font-weight: 300;
 }
 
 a {
   color: $gray-3;
   transition: color 0.2s linear;
   text-decoration-color: $brand-primary;
+  font-weight: 400;
 }
 a:hover {
   color: $orange-6;
