@@ -1,0 +1,92 @@
+.card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: center;
+  min-height: calc(100vh - 50px - 60px);
+  margin: 1em 0 0.5em;
+}
+
+.drink-card {
+  max-width: 40em;
+  margin: 3rem auto;
+  padding: 2em;
+  border-radius: $border-radius;
+  color: $gray-dark;
+  background-color: $white;
+  box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1.62fr;
+  grid-gap: 2rem;
+}
+
+.drink-card__title {
+  color: $gray-2;
+  font-weight: normal;
+  font-size: 2.6rem;
+}
+
+.drink-card__image {
+  grid-column: 1;
+
+  > img {
+    width: calc(100% + 5rem);
+    margin-top: -3rem;
+    margin-left: -5rem;
+    border-radius: $border-radius;
+    object-fit: cover;
+    box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.1);
+  }
+}
+
+.drink-card__content {
+  display: flex;
+  grid-column: 2;
+  flex-direction: column;
+
+  .e-instructions {
+    flex-grow: 1;
+  }
+}
+
+.recipe-intro {
+  color: $gray-4;
+}
+
+.ingredients {
+  margin-left: -1em;
+  padding-left: 1em;
+  font-style: italic;
+  list-style-type: none;
+
+  > li {
+    position: relative;
+
+    &::before {
+      position: absolute;
+      top: 0;
+      left: -0.6em;
+      content: '\2022 ';
+      color: $brand-primary;
+      font-size: 1.4em;
+      line-height: 1;
+    }
+  }
+}
+
+.garnish {
+  margin: 0;
+  color: $gray-4;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: $font-heading;
+}
+.ingredients + .garnish {
+  margin-top: -0.7rem;
+}
+.garnish + .ingredients {
+  margin-top: 0;
+}

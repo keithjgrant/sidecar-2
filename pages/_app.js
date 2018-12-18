@@ -1,13 +1,16 @@
 import React from 'react';
 import App, {Container} from 'next/app';
 import {withRouter} from 'next/router';
-import PageLayout from '../src/components/PageLayout';
 import Context from '../src/AppContext';
+import Meta from '../src/components/Meta';
+import PageLayout from '../src/components/PageLayout';
+import '../src/styles.scss';
 
 class MyApp extends App {
   constructor(props) {
     super(props);
     this.state = {
+      pageTitle: 'Sidecar',
       drinks: [],
       getCurrentDrink: this.getCurrentDrink,
     };
@@ -23,6 +26,7 @@ class MyApp extends App {
     return (
       <Container>
         <Context.Provider value={this.state}>
+          <Meta />
           <PageLayout route={router.route}>
             <Component {...pageProps} />
           </PageLayout>

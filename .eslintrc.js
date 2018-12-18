@@ -31,5 +31,7 @@ module.exports = {
     clearInterval: true,
     Promise: true,
     fetch: true,
+    process: true,
+    require: true,
   },
 };

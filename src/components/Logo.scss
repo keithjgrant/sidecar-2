@@ -1,0 +1,15 @@
+.logo > a {
+  padding: 0.3rem;
+  font-size: 1.6rem;
+  font-family: $font-heading;
+
+  &:hover {
+    color: $gray-dark;
+  }
+
+  > svg {
+    height: 3rem;
+    padding: 0.2em;
+    vertical-align: -0.75em;
+  }
+}

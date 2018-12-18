@@ -1,0 +1,11 @@
+.header-bar {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: baseline;
+  background-color: $brand-primary;
+
+  > :nth-child(2) {
+    flex-grow: 1;
+  }
+}
