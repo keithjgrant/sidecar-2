@@ -15,17 +15,20 @@ function IngredientList({items = []}) {
   );
 }
 
+const GENERIC_IMAGE = {
+  url: '/bartender.jpg',
+  alt: 'A well-dressed bartender pouring a spirit into a cocktail shaker',
+};
+
 function CocktailPhoto({image}) {
-  if (!image) {
-    return null;
-  }
+  let img = image || GENERIC_IMAGE;
 
   return (
     <div className="drink-card__image">
       <img
-        src={`/static${image.url}`}
-        alt={image.alt}
-        style={{objectPosition: image.align}}
+        src={`/static${img.url}`}
+        alt={img.alt}
+        style={{objectPosition: img.align || '50%'}}
       />
     </div>
   );
@@ -34,7 +37,7 @@ function CocktailPhoto({image}) {
 export default function DrinkCard({drink}) {
   return (
     <div className="card-wrapper">
-      <div className="drink-card h-recipe">
+      <main className="drink-card h-recipe">
         <Head>
           <title key="title">{drink.title}</title>
         </Head>
@@ -50,13 +53,13 @@ export default function DrinkCard({drink}) {
           <div className="e-instructions">
             <Markdown source={drink.content} />
           </div>
-          <div className="text-right aside">
+          <div className="text-right publish-date">
             <time className="dt-published">
               Published {formatDate(drink.date)}
             </time>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 }

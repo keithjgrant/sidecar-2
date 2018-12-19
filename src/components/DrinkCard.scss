@@ -11,22 +11,36 @@
 }
 
 .drink-card {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1.62fr;
   max-width: 40em;
   margin: 3rem auto;
-  padding: 2em;
+  padding: 1em 2em;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: $border-radius;
-  color: $gray-dark;
-  background-color: $white;
-  box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.1);
-  display: grid;
-  grid-template-columns: 1fr 1.62fr;
-  grid-gap: 2rem;
+  color: $white;
+  background-color: $gray-dark;
+  background-image: linear-gradient(to right, hsl(315, 3.2%, 23%), $gray-2);
 }
 
 .drink-card__title {
-  color: $gray-2;
+  position: relative;
+  margin-top: 0;
+  color: $white;
   font-weight: normal;
   font-size: 2.6rem;
+  line-height: 1.1;
+
+  &::after {
+    position: absolute;
+    content: '';
+    bottom: -0.5em;
+    left: 0;
+    width: 3em;
+    height: 4px;
+    background-color: $brand-primary;
+  }
 }
 
 .drink-card__image {
@@ -53,12 +67,18 @@
 }
 
 .recipe-intro {
-  color: $gray-4;
+  color: $gray-7;
+}
+
+.recipe-intro + .ingredients {
+  margin-top: 1em;
+  border-top: 1px solid $gray-4;
 }
 
 .ingredients {
-  margin-left: -1em;
-  padding-left: 1em;
+  margin-top: 0.3em;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  border-bottom: 1px solid $gray-4;
   font-style: italic;
   list-style-type: none;
 
@@ -67,7 +87,7 @@
 
     &::before {
       position: absolute;
-      top: 0;
+      top: 0.15em;
       left: -0.9em;
       content: '\2022 ';
       color: $brand-primary;
@@ -88,4 +108,10 @@
 }
 .garnish + .ingredients {
   margin-top: 0;
+}
+
+.publish-date {
+  margin-top: 2rem;
+  color: $gray-6;
+  font-size: 0.8rem;
 }

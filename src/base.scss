@@ -1,23 +1,22 @@
+html {
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   color: $white;
-  background-color: $gray-dark;
-  background-image: linear-gradient(
-    to bottom,
-    $brand-primary,
-    $brand-primary 40vh,
-    $gray-dark 40vh
-  );
   background-repeat: no-repeat;
+  background-color: $gray-dark;
+  background-image: radial-gradient($blue, $gray-2 80%);
   font-family: $font-body;
   font-weight: 300;
 }
 
 a {
-  color: $gray-3;
-  transition: color 0.2s linear;
-  text-decoration-color: $brand-primary;
+  color: $brand-primary;
   font-weight: 400;
+  transition: color 0.2s linear;
+  text-decoration-color: $white;
 }
 a:hover {
   color: $orange-6;
@@ -30,6 +29,6 @@ a:active {
 h1,
 h2,
 h3 {
-  font-family: $font-heading;
   color: $gray-4;
+  font-family: $font-heading;
 }
