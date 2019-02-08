@@ -1,23 +1,30 @@
-import {useContext} from 'react';
 import Link from 'next/link';
-import Context from '../AppContext';
 
-export default function DrinkList() {
-  const store = useContext(Context);
-  const {drinks} = store;
-
+function DrinkItem({drink}) {
   return (
-    <div>
-      {drinks &&
-        drinks.map(drink => (
-          <Link
-            key={drink.basename}
-            as={`/drinks/${drink.basename}`}
-            href={`/drinks?d=${drink.basename}`}
-          >
-            <a>{drink.title}</a>
-          </Link>
-        ))}
+    <li className="drink-preview">
+      <Link
+        key={drink.basename}
+        as={`/drinks/${drink.basename}`}
+        href={`/drinks?d=${drink.basename}`}
+      >
+        <a>
+          {drink.image ? (
+            <img src={`/static${drink.image.url}`} alt={drink.image.alt} />
+          ) : null}
+          {drink.title}
+        </a>
+      </Link>
+    </li>
+  );
+}
+
+export default function DrinkList({drinks}) {
+  return (
+    <div className="centered-wrapper">
+      <ul className="drink-list">
+        {drinks.map(d => <DrinkItem key={d.basename} drink={d} />)}
+      </ul>
     </div>
   );
 }

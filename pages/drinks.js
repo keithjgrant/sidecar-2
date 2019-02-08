@@ -7,9 +7,9 @@ export default () => {
   const store = useContext(Context);
   const currentDrink = store.getCurrentDrink();
 
-  return (
-    <div>
-      {currentDrink ? <DrinkCard drink={currentDrink} /> : <DrinkList />}
-    </div>
+  return currentDrink ? (
+    <DrinkCard drink={currentDrink} />
+  ) : (
+    <DrinkList drinks={store.drinks} />
   );
 };

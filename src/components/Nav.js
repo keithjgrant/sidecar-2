@@ -1,9 +1,6 @@
 import Link from 'next/link';
 
-export default function Nav({route}) {
-  if (route === '/') {
-    return null;
-  }
+export default function Nav() {
   return (
     <nav className="nav-bar">
       <Link href="/drinks">

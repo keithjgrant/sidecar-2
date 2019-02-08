@@ -1,4 +1,4 @@
-const drinks = require('./static/drinks.json');
+const drinks = require('./static/data/drinks.json');
 const withSass = require('@zeit/next-sass');
 const exec = require('child_process').exec;
 // const WebpackShellPlugin = require('webpack-shell-plugin');

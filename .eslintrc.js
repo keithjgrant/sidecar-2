@@ -33,5 +33,6 @@ module.exports = {
     fetch: true,
     process: true,
     require: true,
+    module: true,
   },
 };

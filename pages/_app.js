@@ -36,7 +36,7 @@ class MyApp extends App {
   }
 
   async fetchDrinks() {
-    const response = await fetch('/static/drinks.json');
+    const response = await fetch('/static/data/drinks.json');
     const data = await response.json();
     const drinks = Object.keys(data).map(key => data[key]);
     this.setState({drinks});

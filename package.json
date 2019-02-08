@@ -8,7 +8,7 @@
     "dev:static": "next build && next export && https-server out",
     "build": "next build",
     "start": "next start",
-    "data": "m2j -c -w 0 -o static/drinks.json drinks/*.md",
+    "data": "m2j -c -w 0 -o static/data/drinks.json drinks/*.md",
     "test": "echo \"Error: no test specified\" && exit 1",
     "export": "next build && next export"
   },

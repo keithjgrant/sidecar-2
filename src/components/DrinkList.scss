@@ -1,0 +1,30 @@
+.drink-list {
+  max-width: 40em;
+  padding-left: 0;
+  list-style-type: none;
+
+  @media (min-width: 30em) {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  }
+}
+
+.drink-preview {
+  text-align: center;
+
+  > a {
+    display: block;
+    color: $white;
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    width: 8em;
+    height: 8em;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}

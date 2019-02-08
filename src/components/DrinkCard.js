@@ -36,14 +36,18 @@ function CocktailPhoto({image}) {
 
 export default function DrinkCard({drink}) {
   return (
-    <div className="card-wrapper">
-      <main className="drink-card h-recipe">
+    <div className="centered-wrapper">
+      <main
+        className={`drink-card ${
+          drink.image ? '' : 'drink-card--no-image'
+        } h-recipe`}
+      >
         <Head>
           <title key="title">{drink.title}</title>
         </Head>
         <CocktailPhoto image={drink.image} />
         <div className="drink-card__content">
-          <h1 className="drink-card__title p-name">{drink.title}</h1>
+          <h1 className="card-title p-name">{drink.title}</h1>
           {drink.intro ? (
             <div className="recipe-intro p-summary">
               <Markdown source={drink.intro} />
