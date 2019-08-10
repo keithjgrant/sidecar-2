@@ -10,3 +10,20 @@ Homescreen:
 * browse by style (sour/fizz/etc)
 * search
 * 1 featured cocktail
+
+
+Drinks data:
+booziness: 1-3
+sweetness: 1-3
+complexity?
+glassware: coupe/rocks/collins
+style: sour/martini/old-fashioned/fizz/etc
+
+tags:
+refreshing
+cozy/comforting/wintry ?
+[spirit]
+
+
+SVG:
+https://www.flaticon.com/search?word=cocktail&style_id=13

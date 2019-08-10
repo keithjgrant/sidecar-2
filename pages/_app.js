@@ -13,6 +13,8 @@ class MyApp extends App {
       pageTitle: 'Sidecar',
       drinks: [],
       getCurrentDrink: this.getCurrentDrink,
+      getTags: this.getTags,
+      getCurrentTag: this.getCurrentTag,
     };
   }
 
@@ -49,6 +51,23 @@ class MyApp extends App {
     }
     return null;
   };
+
+  getTags = () => {
+    const tags = {};
+    this.state.drinks.forEach(drink => {
+      drink.tags.forEach(t => tags[t] = true);
+    });
+    return Object.keys(tags).sort();
+  }
+
+  getCurrentTag = () => {
+    const {router} = this.props;
+    if (router.route === '/tags') {
+      return router.query.tag;
+    }
+    return null;
+  };
+
 }
 
 export default withRouter(MyApp);

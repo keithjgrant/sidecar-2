@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-function DrinkItem({drink}) {
+function DrinkItem({ drink }) {
   return (
     <li className="drink-preview">
       <Link
@@ -11,7 +11,9 @@ function DrinkItem({drink}) {
         <a>
           {drink.image ? (
             <img src={`/static${drink.image.url}`} alt={drink.image.alt} />
-          ) : null}
+          ) : (
+            <img src={`/static/bartender.jpg`} alt="" />
+          )}
           {drink.title}
         </a>
       </Link>
@@ -19,11 +21,13 @@ function DrinkItem({drink}) {
   );
 }
 
-export default function DrinkList({drinks}) {
+export default function DrinkList({ drinks }) {
   return (
     <div className="centered-wrapper">
       <ul className="drink-list">
-        {drinks.map(d => <DrinkItem key={d.basename} drink={d} />)}
+        {drinks.map(d => (
+          <DrinkItem key={d.basename} drink={d} />
+        ))}
       </ul>
     </div>
   );

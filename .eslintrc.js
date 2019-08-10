@@ -34,5 +34,6 @@ module.exports = {
     process: true,
     require: true,
     module: true,
+    Set: true,
   },
 };

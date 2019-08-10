@@ -1,18 +1,22 @@
 ---
 title: "Pilot’s License"
 date: 2018-12-10T12:24:35-05:00
-tags: [
-  "gin",
-  "sweet-vermouth",
-  "stirred",
-  "sidecar-original"
-]
+style: "martini"
+glass: "coupe"
+sweetness: 2
+booziness: 3
 ingredients: [
   "2¼ Aviation gin",
   "¾ oz blanc vermouth",
   "lemon twist garnish"
 ]
-intro: This is an in-your-face response to anyone who insists a martini must be dry. Aviation is a sweeter, less juniper-heavy gin that shines with a moderately sweet blanc vermouth. I even bump up the ratio of vermouth to 1:3 rather than my usual 1:4 [martini](/drinks/martini) ratio.
+tags: [
+  "gin",
+  "blanc-vermouth",
+  "stirred",
+  "sidecar-original"
+]
+intro: This is an unabashed response to anyone who insists a martini must be dry. Aviation is a sweeter, less juniper-heavy gin that shines with a moderately sweet blanc vermouth.
 
 image:
   url: "/images/drinks/pilots-license.jpg"
