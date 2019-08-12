@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Markdown from 'react-markdown';
+import CocktailImage from './CocktailImage';
 import {formatDate} from '../util';
 
 function IngredientList({items = []}) {
@@ -15,25 +16,6 @@ function IngredientList({items = []}) {
   );
 }
 
-const GENERIC_IMAGE = {
-  url: '/bartender.jpg',
-  alt: 'A well-dressed bartender pouring a spirit into a cocktail shaker',
-};
-
-function CocktailPhoto({image}) {
-  let img = image || GENERIC_IMAGE;
-
-  return (
-    <div className="drink-card__image">
-      <img
-        src={`/static${img.url}`}
-        alt={img.alt}
-        style={{objectPosition: img.align || '50%'}}
-      />
-    </div>
-  );
-}
-
 export default function DrinkCard({drink}) {
   return (
     <div className="centered-wrapper">
@@ -45,7 +27,7 @@ export default function DrinkCard({drink}) {
         <Head>
           <title key="title">{drink.title}</title>
         </Head>
-        <CocktailPhoto image={drink.image} />
+        <CocktailImage image={drink.image} glassType={drink.glass} />
         <div className="drink-card__content">
           <h1 className="card-title p-name">{drink.title}</h1>
           {drink.intro ? (

@@ -17,7 +17,6 @@ tags: [
   "sidecar-original"
 ]
 intro: This is an unabashed response to anyone who insists a martini must be dry. Aviation is a sweeter, less juniper-heavy gin that shines with a moderately sweet blanc vermouth.
-
 image:
   url: "/images/drinks/pilots-license.jpg"
   alt: "Closeup photo of the clear cocktail in a martini glass"

@@ -28,6 +28,13 @@
     box-shadow: 0.1em 0.1em 0.3em rgba(0, 0, 0, 0.1);
   }
 
+  > svg {
+    width: 200%;
+    height: auto;
+    color: $orange-8;
+    opacity: 0.3;
+  }
+
   + .drink-card__content {
     margin-top: 1em;
   }
@@ -65,12 +72,16 @@
   }
 
   .drink-card__image {
-    > img {
-      width: calc(100% + 5rem);
+    > img,
+    > svg {
       max-height: initial;
       margin-top: -3rem;
-      margin-left: -5rem;
       border-radius: $border-radius;
+    }
+
+    > img {
+      width: calc(100% + 5rem);
+      margin-left: -5rem;
     }
 
     + .drink-card__content {

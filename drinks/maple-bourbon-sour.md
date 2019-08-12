@@ -1,6 +1,7 @@
 ---
 title: "Maple Bourbon Sour"
 date: 2018-12-12T10:13:33-05:00
+glass: "rocks"
 tags: [
   "bourbon",
   "maple-syrup",

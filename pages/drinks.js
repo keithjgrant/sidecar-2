@@ -3,7 +3,7 @@ import Context from '../src/AppContext';
 import DrinkCard from '../src/components/DrinkCard';
 import DrinkList from '../src/components/DrinkList';
 
-export default () => {
+export default function Drinks () {
   const store = useContext(Context);
   const currentDrink = store.getCurrentDrink();
 
@@ -12,4 +12,4 @@ export default () => {
   ) : (
     <DrinkList drinks={store.drinks} />
   );
-};
+}
