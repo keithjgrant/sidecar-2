@@ -2,3 +2,7 @@ svg {
   fill: currentColor;
   height: 1em;
 }
+
+.cocktail-image svg {
+  filter: drop-shadow(2px 4px 6px black);
+}

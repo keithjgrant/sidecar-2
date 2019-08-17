@@ -1,42 +1,28 @@
-import Collins from './svg/Collins';
-import Coupe from "./svg/Coupe";
-import Flute from "./svg/Flute";
-import MartiniGlass from "./svg/MartiniGlass";
-import RocksGlass from "./svg/RocksGlass";
-import Snifter from "./svg/Snifter";
-import WineGlass from "./svg/WineGlass";
-
-const SVG = {
-  collins: Collins,
-  coupe: Coupe,
-  flute: Flute,
-  martini: MartiniGlass,
-  rocks: RocksGlass,
-  snifter: Snifter,
-  wine: WineGlass,
-};
+import glasses from './svg/glasses';
 
 const GENERIC_IMAGE = {
   url: '/bartender.jpg',
   alt: 'A well-dressed bartender pouring a spirit into a cocktail shaker',
 };
 
-export default function CocktailImage({ image, glassType }) {
-  const GlassSvg = SVG[glassType];
+export default function CocktailImage({ image, glassType, className }) {
+  const GlassSvg = glasses[glassType];
   if (!image && !GlassSvg) {
     image = GENERIC_IMAGE;
   }
 
   return (
-    <div className="drink-card__image">
+    <div className={`cocktail-image ${className}`}>
       {image ? (
         <img
           src={`/static${image.url}`}
           alt={image.alt}
-          style={{ objectPosition: image.align || "50%" }}
+          style={{ objectPosition: image.align || '50%' }}
         />
       ) : (
-        <GlassSvg />
+        <div className="svg-wrapper">
+          <GlassSvg />
+        </div>
       )}
     </div>
   );

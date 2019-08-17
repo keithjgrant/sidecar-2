@@ -8,6 +8,10 @@ Object.keys(drinks).forEach(d => {
   drinks[d].tags.forEach(t => tags.add(t));
 });
 
+const techniques = [
+  'shaking',
+]
+
 module.exports = withSass({
   exportPathMap: async function(defaultPathMap) {
     Object.keys(drinks).forEach(basename => {
@@ -22,6 +26,12 @@ module.exports = withSass({
         query: {tag: tag},
       }
     });
+    techniques.forEach(t => {
+      defaultPathMap[`/techniques/${t}`] = {
+        page: '/techniques',
+        query: {technique: t}
+      }
+    })
 
     return defaultPathMap;
   },

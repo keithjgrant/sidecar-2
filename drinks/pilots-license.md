@@ -6,7 +6,7 @@ glass: "coupe"
 sweetness: 2
 booziness: 3
 ingredients: [
-  "2¼ Aviation gin",
+  "2¼ oz Aviation gin",
   "¾ oz blanc vermouth",
   "lemon twist garnish"
 ]

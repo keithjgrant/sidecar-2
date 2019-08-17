@@ -28,13 +28,15 @@ $gray-3: hsl(275, 10%, 33%);
 $gray-4: hsl(250, 7.5%, 40%);
 $gray-6: hsl(224, 7.5%, 61%);
 $gray-7: hsl(224, 7.5%, 69%);
+$gray-8: hsl(224, 5.5%, 79%);
 $gray-dark: $gray-2;
 $gray-light: $gray-6;
 
-$orange-sub-7: hsl(26.5, 28%, 76.5%);
-$orange-sub-9: hsl(24, 17%, 88%);
-$orange-sub-medium: $orange-sub-7;
-$orange-sub-light: $orange-sub-9;
+$orange-sub-5: hsl($orange-hue, 28%, 60%);
+// $orange-sub-7: hsl(26.5, 28%, 76.5%);
+// $orange-sub-9: hsl(24, 17%, 88%);
+// $orange-sub-medium: $orange-sub-7;
+// $orange-sub-light: $orange-sub-9;
 
 $border-radius: 0.3em;
 

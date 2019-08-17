@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "next -p 4001",
-    "dev:static": "next build && next export && https-server out",
+    "dev:static": "next build && next export && http-server out",
     "build": "next build",
     "start": "next start",
     "data": "m2j -c -w 0 -o static/data/drinks.json drinks/*.md",
+    "data2": "m2j -c -w 0 -o static/data/content.json content/**/*.md",
     "test": "echo \"Error: no test specified\" && exit 1",
     "export": "next build && next export"
   },
@@ -27,6 +28,7 @@
     "eslint": "^5.10.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
+    "http-server": "^0.11.1",
     "markdown-to-json": "^0.5.1"
   }
 }

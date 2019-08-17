@@ -4,6 +4,7 @@ import {withRouter} from 'next/router';
 import Context from '../src/AppContext';
 import Meta from '../src/components/Meta';
 import PageLayout from '../src/components/PageLayout';
+// import initialDrinks from '../static/data/drinks.json';
 import '../src/styles.scss';
 
 class MyApp extends App {
@@ -11,6 +12,7 @@ class MyApp extends App {
     super(props);
     this.state = {
       pageTitle: 'Sidecar',
+      // drinks: Object.keys(initialDrinks).map(key => initialDrinks[key]),
       drinks: [],
       getCurrentDrink: this.getCurrentDrink,
       getTags: this.getTags,

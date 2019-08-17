@@ -1,4 +1,5 @@
-import Link from "next/link";
+import Link from 'next/link';
+import CocktailImage from './CocktailImage';
 
 function DrinkItem({ drink }) {
   return (
@@ -9,11 +10,11 @@ function DrinkItem({ drink }) {
         href={`/drinks?d=${drink.basename}`}
       >
         <a>
-          {drink.image ? (
-            <img src={`/static${drink.image.url}`} alt={drink.image.alt} />
-          ) : (
-            <img src={`/static/bartender.jpg`} alt="" />
-          )}
+          <CocktailImage
+            image={drink.image}
+            glassType={drink.glass}
+            className="drink-thumbnail"
+          />
           {drink.title}
         </a>
       </Link>
@@ -23,12 +24,10 @@ function DrinkItem({ drink }) {
 
 export default function DrinkList({ drinks }) {
   return (
-    <div className="centered-wrapper">
-      <ul className="drink-list">
-        {drinks.map(d => (
-          <DrinkItem key={d.basename} drink={d} />
-        ))}
-      </ul>
-    </div>
+    <ul className="drink-list">
+      {drinks.map(d => (
+        <DrinkItem key={d.basename} drink={d} />
+      ))}
+    </ul>
   );
 }

@@ -1,0 +1,11 @@
+{
+  "vermouth": {
+    "title": "Vermouth",
+    "content": "\nIt can be good\n",
+    "basename": "vermouth"
+  },
+  "shaking": {
+    "content": "There are three main techniques for making a cocktail: shaking, stirring, and building.\n",
+    "basename": "shaking"
+  }
+}

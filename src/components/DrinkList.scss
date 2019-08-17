@@ -19,12 +19,25 @@
     text-decoration: none;
   }
 
-  img {
+  img, .svg-wrapper {
     display: block;
     width: 8em;
     height: 8em;
     margin: 0 auto;
     border-radius: 50%;
     object-fit: cover;
+  }
+
+  .svg-wrapper {
+    background-color: $gray-2;
+    color: $orange-sub-5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      width: 5em;
+      height: 5em;
+    }
   }
 }

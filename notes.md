@@ -27,3 +27,5 @@ cozy/comforting/wintry ?
 
 SVG:
 https://www.flaticon.com/search?word=cocktail&style_id=13
+
+Saving favorites
