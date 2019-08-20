@@ -7,13 +7,14 @@ export default function Drinks() {
   const store = useContext(Context);
   const currentDrink = store.getCurrentDrink();
 
-  return (
+  return currentDrink ? (
     <div className="centered-wrapper">
-      {currentDrink ? (
-        <DrinkCard drink={currentDrink} />
-      ) : (
-        <DrinkList drinks={store.drinks} />
-      )}
+      <DrinkCard drink={currentDrink} />
+    </div>
+  ) : (
+    <div className="main-wrapper">
+      <h1 className="page-heading">Drinks</h1>
+      <DrinkList drinks={store.drinks} />
     </div>
   );
 }

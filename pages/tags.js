@@ -1,7 +1,7 @@
-import { useContext } from "react";
-import Context from "../src/AppContext";
-import TagsList from "../src/components/TagsList";
-import DrinkList from "../src/components/DrinkList";
+import { useContext } from 'react';
+import Context from '../src/AppContext';
+import TagsList from '../src/components/TagsList';
+import DrinkList from '../src/components/DrinkList';
 
 export default () => {
   const store = useContext(Context);
@@ -9,16 +9,16 @@ export default () => {
 
   if (!tag) {
     return (
-      <div>
-        <h1>Tags</h1>
+      <main className="main-wrapper">
+        <h1 className="page-heading">Tags</h1>
         <TagsList tags={store.getTags()} />
-      </div>
+      </main>
     );
   }
   const drinks = store.drinks.filter(d => d.tags.includes(tag));
   return (
-    <div>
-      <h1>Drinks tagged {tag}</h1>
+    <div className="main-wrapper">
+      <h1 className="page-heading">Drinks tagged {tag}</h1>
       <DrinkList drinks={drinks} />
     </div>
   );

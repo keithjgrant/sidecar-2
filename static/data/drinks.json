@@ -46,6 +46,32 @@
     "iso8601Date": "2018-12-10T09:24:35-08:00",
     "basename": "negroni"
   },
+  "old-fashioned": {
+    "title": "Old Fashioned",
+    "date": "2018-12-10T17:24:35.000Z",
+    "style": "old fashioned",
+    "glass": "rocks",
+    "sweetness": 2,
+    "booziness": 3,
+    "ingredients": [
+      "2 oz rye whiskey",
+      "¾ oz [burnt sugar syrup](/ingredients/burnt-sugar-syrup)",
+      "2 dashes Angostura bitters",
+      "2 dashed orange bitters"
+    ],
+    "garnish": "orange twist",
+    "tags": [
+      "whiskey",
+      "rye-whiskey",
+      "burnt-sugar-syrup",
+      "built",
+      "classic-cocktail"
+    ],
+    "intro": "Some will argue an Old Fashioned must be made with a sugar cube. Those people haven't tried it with burnt sugar syrup. My measurements here may seem like a lot of syrup, but burnt sugar isn’t quite as sweet as normal simple syrup, so I find this amount provides a good balance.",
+    "content": "\nBuild in rocks glass. Add ice and stir briefly.\n\nExpress orange peel oils over the drink, then rub it around the rim of the glass and place it in the drink.\n",
+    "iso8601Date": "2018-12-10T09:24:35-08:00",
+    "basename": "old-fashioned"
+  },
   "pilots-license": {
     "title": "Pilot’s License",
     "date": "2018-12-10T17:24:35.000Z",
@@ -55,9 +81,9 @@
     "booziness": 3,
     "ingredients": [
       "2¼ oz Aviation gin",
-      "¾ oz blanc vermouth",
-      "lemon twist garnish"
+      "¾ oz blanc vermouth"
     ],
+    "garnish": "lemon twist",
     "tags": [
       "gin",
       "blanc-vermouth",

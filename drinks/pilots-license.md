@@ -8,8 +8,8 @@ booziness: 3
 ingredients: [
   "2¼ oz Aviation gin",
   "¾ oz blanc vermouth",
-  "lemon twist garnish"
 ]
+garnish: lemon twist
 tags: [
   "gin",
   "blanc-vermouth",

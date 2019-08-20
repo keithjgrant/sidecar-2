@@ -1,26 +1,35 @@
+import React, { useState } from 'react';
 import Link from 'next/link';
 
-function TagItem({tag}) {
-  return (
-    <li>
-      <Link
-        as={`/tags/${tag}`}
-        href={`/tags?t=${tag}`}
-      >
-        <a>
-          {tag}
-        </a>
-      </Link>
-    </li>
-  );
-}
+const LIMIT = 3;
 
-export default function TagsList({tags}) {
+export default function TagsList({ tags }) {
+  const [isExpanded, setIsExpanded] = useState(false);
+  let shownTags;
+  let toggle;
+  if (isExpanded || tags.length >= LIMIT) {
+    shownTags = tags;
+  } else {
+    shownTags = tags.splice(0, LIMIT);
+    toggle = (
+      <li>
+        <button onClick={() => setIsExpanded(true)}>
+          {tags.length - LIMIT} more
+        </button>
+      </li>
+    );
+  }
+
   return (
-    <div className="centered-wrapper">
-      <ul className="tags-list">
-        {tags.map(t => <TagItem key={t} tag={t} />)}
-      </ul>
-    </div>
+    <ul className="tags-list">
+      {shownTags.map(tag => (
+        <li key={tag}>
+          <Link as={`/tags/${tag}`} href={`/tags/${tag}`}>
+            <a>{tag}</a>
+          </Link>
+        </li>
+      ))}
+      {toggle}
+    </ul>
   );
 }

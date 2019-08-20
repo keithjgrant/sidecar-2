@@ -2,22 +2,12 @@ import React from 'react';
 import Head from 'next/head';
 import Markdown from 'react-markdown';
 import CocktailImage from './CocktailImage';
+import DrinkTags from './DrinkTags';
 import ScaleIndicator from './ScaleIndicator';
 import PrepMethod from './PrepMethod';
 import GlassType from './GlassType';
+import IngredientList from './IngredientList';
 import { formatDate } from '../util';
-
-function IngredientList({ items = [] }) {
-  return (
-    <ul className="ingredients">
-      {items.map((ingredient, i) => (
-        <li key={i} className="p-ingredient">
-          {ingredient}
-        </li>
-      ))}
-    </ul>
-  );
-}
 
 export default function DrinkCard({ drink }) {
   return (
@@ -37,12 +27,13 @@ export default function DrinkCard({ drink }) {
         />
         <div className="drink-card__content">
           <h1 className="card-title p-name">{drink.title}</h1>
+          <DrinkTags tags={drink.tags} />
           {drink.intro ? (
             <div className="recipe-intro p-summary">
               <Markdown source={drink.intro} />
             </div>
           ) : null}
-          <IngredientList items={drink.ingredients} />
+          <IngredientList items={drink.ingredients} garnish={drink.garnish} />
           <div className="e-instructions">
             <Markdown source={drink.content} />
           </div>

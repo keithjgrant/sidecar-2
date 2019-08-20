@@ -1,0 +1,11 @@
+.tags-list {
+  padding-left: 0;
+  list-style: none;
+
+  > li > a {
+    display: block;
+    padding: 0.5em 1em;
+    border: 1px  solid $gray-4;
+    text-decoration: none;
+  }
+}

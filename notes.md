@@ -29,3 +29,10 @@ SVG:
 https://www.flaticon.com/search?word=cocktail&style_id=13
 
 Saving favorites
+
+
+TODO:
+* self-host fonts
+* static content solution
+* import content
+* file organization

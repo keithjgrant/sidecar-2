@@ -1,0 +1,15 @@
+.main-wrapper {
+  min-width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.centered-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: $fill-height;
+  padding-bottom: 0.5em;
+  align-items: center;
+  justify-content: center;
+}
