@@ -76,7 +76,7 @@
     "title": "Pilot’s License",
     "date": "2018-12-10T17:24:35.000Z",
     "style": "martini",
-    "glass": "coupe",
+    "glass": "martini",
     "sweetness": 2,
     "booziness": 3,
     "ingredients": [
@@ -96,7 +96,7 @@
       "alt": "Closeup photo of the clear cocktail in a martini glass",
       "align": "50% 40%"
     },
-    "content": "\nAdd to cocktail shaker with plenty of ice. Stir well, then strain into a martini glass.\n\nGarnish with a lemon twist.\n",
+    "content": "\nAdd to cocktail shaker with plenty of ice. Stir well, then strain into a martini glass or coupe.\n\nGarnish with a lemon twist.\n",
     "iso8601Date": "2018-12-10T09:24:35-08:00",
     "basename": "pilots-license"
   }

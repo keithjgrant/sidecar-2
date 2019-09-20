@@ -18,5 +18,9 @@ export default function PrepMethod({ tags }) {
   if (!method) {
     return null;
   }
-  return <div className="metadata-label">{method}</div>;
+  return (
+    <div className="metadata-label">
+      {method}
+    </div>
+  );
 }

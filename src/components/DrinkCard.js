@@ -52,10 +52,10 @@ export default function DrinkCard({ drink }) {
           <ScaleIndicator value={drink.booziness} label="Booziness" />
         </div>
         <div>
-          <PrepMethod tags={drink.tags} />
+          <GlassType drink={drink} />
         </div>
         <div>
-          <GlassType drink={drink} />
+          <PrepMethod tags={drink.tags} />
         </div>
       </div>
     </main>

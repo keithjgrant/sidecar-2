@@ -2,7 +2,7 @@
 title: "Pilot’s License"
 date: 2018-12-10T12:24:35-05:00
 style: "martini"
-glass: "coupe"
+glass: "martini"
 sweetness: 2
 booziness: 3
 ingredients: [
@@ -22,6 +22,6 @@ image:
   alt: "Closeup photo of the clear cocktail in a martini glass"
   align: "50% 40%"
 ---
-Add to cocktail shaker with plenty of ice. Stir well, then strain into a martini glass.
+Add to cocktail shaker with plenty of ice. Stir well, then strain into a martini glass or coupe.
 
 Garnish with a lemon twist.
