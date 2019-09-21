@@ -16,7 +16,7 @@ export default function Nav() {
         <a>Techniques</a>
       </Link>
       <Link href="/about">
-        <a>About</a>
+        <a className="xs-hidden">About</a>
       </Link>
     </nav>
   );

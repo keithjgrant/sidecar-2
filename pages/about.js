@@ -1,13 +1,12 @@
 import React from 'react';
-import Markdown from 'react-markdown';
-import content from '../content/about.md';
+import About from '../content/about.md';
 
-console.log(content);
-export default function About () {
+export default function AboutPage () {
   return (
     <main className="main-wrapper">
-      <h1 className="page-heading">About</h1>
-      <Markdown source={content}/>
+      <article className="fullpage-article">
+        <About />
+      </article>
     </main>
   );
 }

@@ -16,6 +16,8 @@
   "author": "Keith J. Grant",
   "license": "ISC",
   "dependencies": {
+    "@mdx-js/loader": "^1.4.5",
+    "@next/mdx": "^9.0.6",
     "@zeit/next-sass": "^1.0.1",
     "next": "^7.0.2",
     "node-sass": "^4.12.0",

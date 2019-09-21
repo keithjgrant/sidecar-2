@@ -1,0 +1,29 @@
+.fullpage-article {
+  max-width: 40em;
+  margin: 1em auto;
+  padding: 2em 1em;
+  border: 1px solid $gray-4;
+  border-radius: $border-radius;
+  box-shadow: 0 0 1em rgba(0,0,0,.1);
+
+  h1, h2, h3 {
+    color: inherit;
+  }
+
+  h1 {
+    margin: 1.72rem 0;
+  }
+
+  h2 {
+    margin: 2.32rem 0 .85rem;
+  }
+
+  > h1:first-child {
+    margin-top: 0;
+  }
+
+  p,
+  ul {
+    margin:1.5em 0;
+  }
+}

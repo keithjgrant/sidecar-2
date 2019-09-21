@@ -1,10 +1,10 @@
 ---
 title: "Negroni"
 date: 2018-12-10T12:24:35-05:00
-style: "other"
 glass: "coupe"
 sweetness: 2
 booziness: 3
+family: "martini"
 ingredients: [
   "1 oz London dry gin",
   "1 oz Campari",

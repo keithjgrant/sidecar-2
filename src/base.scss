@@ -10,6 +10,7 @@ body {
   background-image: radial-gradient($blue, $gray-2 80%);
   font-family: $font-body;
   font-weight: 300;
+  line-height: 1.5;
   overflow-x: hidden;
 }
 
@@ -32,4 +33,5 @@ h2,
 h3 {
   color: $gray-4;
   font-family: $font-heading;
+  font-weight: 400;
 }

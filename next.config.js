@@ -1,6 +1,9 @@
 const drinks = require('./static/data/drinks.json');
 const withSass = require('@zeit/next-sass');
 const exec = require('child_process').exec;
+const withMDX = require('@next/mdx')({
+  extension: /\.(md|mdx)$/,
+});
 // const WebpackShellPlugin = require('webpack-shell-plugin');
 
 const tags = new Set();
@@ -12,7 +15,7 @@ const techniques = [
   'shaking',
 ]
 
-module.exports = withSass({
+module.exports = withMDX(withSass({
   exportPathMap: async function(defaultPathMap) {
     Object.keys(drinks).forEach(basename => {
       defaultPathMap[`/drinks/${basename}`] = {
@@ -49,6 +52,7 @@ module.exports = withSass({
         });
       },
     });
+
     return config;
   },
-});
+}));

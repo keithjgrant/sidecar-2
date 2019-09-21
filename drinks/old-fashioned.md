@@ -1,15 +1,15 @@
 ---
 title: "Old Fashioned"
 date: 2018-12-10T12:24:35-05:00
-style: "old fashioned"
 glass: "rocks"
 sweetness: 2
 booziness: 3
+family: "old fashioned"
 ingredients: [
   "2 oz rye whiskey",
   "¾ oz [burnt sugar syrup](/ingredients/burnt-sugar-syrup)",
   "2 dashes Angostura bitters",
-  "2 dashed orange bitters"
+  "2 dashes orange bitters"
 ]
 garnish: orange twist
 tags: [

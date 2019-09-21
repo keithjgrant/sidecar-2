@@ -1,5 +1,6 @@
 .drink-card {
-  margin: 1rem;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .drink-card__body {
@@ -52,8 +53,6 @@
   }
 }
 .drink-card--no-image {
-  padding-top: 1em;
-
   .drink-card__image {
     display: none;
   }
@@ -70,6 +69,16 @@
   }
 }
 
+@media (min-width: 25em) {
+  .drink-card {
+    margin: 1em;
+  }
+
+  .drink-card--no-image {
+    padding-top: 1em;
+  }
+}
+
 @media (min-width: 30em) {
   .drink-card {
     margin: 3rem 1rem;
@@ -82,8 +91,11 @@
     padding: 1em 1em 1em 2em;
   }
 
-  .drink-card--no-image .drink-card__image {
-    display: block;
+  .drink-card--no-image {
+
+    .drink-card__image {
+      display: block;
+    }
   }
 
   .drink-card__image {

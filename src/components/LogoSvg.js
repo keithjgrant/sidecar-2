@@ -6,7 +6,7 @@ export default function LogoSvg() {
       version="1.1"
       x="0px"
       y="0px"
-      viewBox="0 0 100 125"
+      viewBox="0 10 100 80"
       enableBackground="new 0 0 100 100"
       xmlSpace="preserve"
     >
