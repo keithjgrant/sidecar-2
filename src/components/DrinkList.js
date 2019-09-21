@@ -15,7 +15,7 @@ function DrinkItem({ drink }) {
             glassType={drink.glass}
             className="drink-thumbnail"
           />
-          {drink.title}
+          <div className="drink-preview__title">{drink.title}</div>
         </a>
       </Link>
     </li>
