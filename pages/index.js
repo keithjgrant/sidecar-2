@@ -7,10 +7,8 @@ export default () => {
   const value = useContext(Context);
 
   return (
-    <div style={{
-      backgroundImage: 'url("/images/bartender.jpg")',
-    }}>
-      <h1>Sidecar</h1>
+    <div className="main-wrapper">
+      <h1 className="page-heading">Sidecar</h1>
     </div>
   );
 };

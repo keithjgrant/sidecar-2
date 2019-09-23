@@ -14,4 +14,12 @@
   color: $gray-8;
   font-size: 0.7rem;
   letter-spacing: 0.02em;
+
+  &:first-child {
+    margin-top: 28px;
+
+    @media (min-width: 40em) {
+      margin-top: 0;
+    }
+  }
 }

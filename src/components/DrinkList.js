@@ -23,6 +23,7 @@ function DrinkItem({ drink }) {
 }
 
 export default function DrinkList({ drinks }) {
+  // TODO: sort alphabetically/date-added switch (and other options?)
   return (
     <ul className="drink-list">
       {drinks.map(d => (

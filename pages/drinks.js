@@ -13,7 +13,7 @@ export default function Drinks() {
     </div>
   ) : (
     <div className="main-wrapper">
-      <h1 className="page-heading">Drinks</h1>
+      <h1 className="page-heading">All Drinks</h1>
       <DrinkList drinks={store.drinks} />
     </div>
   );

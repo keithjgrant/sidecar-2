@@ -7,9 +7,9 @@ booziness: 1
 family: "fizz"
 ingredients: [
   "1½ oz overproof rye whiskey",
+  "¾ oz lime juice",
   "¾ oz ginger syrup",
   "½ oz honey syrup",
-  "¾ oz lime juice",
   "1 egg white",
   "top with about 3 oz floral IPA"
 ]
@@ -20,13 +20,14 @@ tags: [
   "lime",
   "ginger-syrup",
   "honey-syrup",
+  "beer",
   "shaken"
 ]
 image:
   url: "/images/drinks/angel-city-fizz.jpg"
   alt: "Narrow glass filled with a golden cocktail, the top half of which is white froth"
-  align: "40% 25%"
-intro: Sourced from [The Educated Barfly](https://www.youtube.com/watch?v=7HOqstAAZ58)
+  align: "40% 15%"
+intro: Created by [The Educated Barfly](https://www.youtube.com/watch?v=7HOqstAAZ58)
 ---
 Add all ingredients except IPA in a cocktail shaker. Dry shake, then shake again with plenty of ice. Strain into collins glass.
 
