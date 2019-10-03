@@ -1,0 +1,13 @@
+.fill-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  > header {
+    flex: 0 0 auto;
+  }
+
+  > div {
+    flex: 1 1 100%;
+  }
+}
