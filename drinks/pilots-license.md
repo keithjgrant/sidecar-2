@@ -5,6 +5,7 @@ style: "martini"
 glass: "martini"
 sweetness: 2
 booziness: 3
+featured: true
 ingredients: [
   "2¼ oz Aviation gin",
   "¾ oz blanc vermouth",

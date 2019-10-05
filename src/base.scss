@@ -7,7 +7,11 @@ body {
   color: $white;
   background-repeat: no-repeat;
   background-color: $gray-dark;
-  background-image: radial-gradient($blue, $gray-2 80%);
+  // background-image: radial-gradient($blue, $gray-2 80%);
+  background-image: url(/static/images/paisley-left.svg);
+  background-size: 500px;
+  background-position: left;
+  background-repeat: no-repeat;
   font-family: $font-body;
   font-weight: 300;
   line-height: 1.5;

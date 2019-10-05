@@ -5,10 +5,10 @@
 
 .drink-card__body {
   max-width: 40em;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--card-border);
   border-radius: $border-radius;
   color: $white;
-  background-color: $gray-dark;
+  background-color: var(--card-bg);
   background-image: linear-gradient(to right, hsl(315, 3.2%, 23%), $gray-2);
 }
 

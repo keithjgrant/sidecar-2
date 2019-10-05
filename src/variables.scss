@@ -70,6 +70,7 @@ $fill-height: calc(100vh - 70px);
   --gray-7: hsl(224, 7.5%, 69%);
   --gray-8: hsl(224, 5.5%, 79%);
   --dark-gray: var(--gray-2);
+  --gray-dark: var(--gray-2);
   --gray-light: var(--gray-6);
 
   --border-radius: 0.3em;
@@ -81,4 +82,7 @@ $fill-height: calc(100vh - 70px);
   /* stylelint-disable unit-whitelist */
   --fill-height: calc(100vh - 70px);
   /* stylelint-disable unit-whitelist */
+
+  --card-bg: var(--gray-dark);
+  --card-border: rgba(255, 255, 255, 0.1);
 }

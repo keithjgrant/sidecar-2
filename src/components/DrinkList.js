@@ -3,19 +3,15 @@ import CocktailImage from './CocktailImage';
 
 function DrinkItem({ drink }) {
   return (
-    <li className="drink-preview">
+    <li>
       <Link
         key={drink.basename}
         as={`/drinks/${drink.basename}`}
         href={`/drinks?d=${drink.basename}`}
       >
-        <a>
-          <CocktailImage
-            image={drink.image}
-            glassType={drink.glass}
-            className="drink-thumbnail"
-          />
-          <div className="drink-preview__title">{drink.title}</div>
+        <a className="drink-preview">
+          <CocktailImage drink={drink} className="drink-thumbnail" />
+          <div className="drink-preview__content">{drink.title}</div>
         </a>
       </Link>
     </li>

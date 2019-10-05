@@ -9,7 +9,6 @@ tags: [
   "egg",
   "shaken"
 ]
-featured: true
 ingredients: [
   "2 oz bourbon",
   "¾ oz lemon juice",

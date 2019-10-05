@@ -5,8 +5,9 @@ const GENERIC_IMAGE = {
   alt: 'A well-dressed bartender pouring a spirit into a cocktail shaker',
 };
 
-export default function CocktailImage({ image, glassType, className }) {
-  const GlassSvg = glasses[glassType];
+export default function CocktailImage({ drink, className }) {
+  let { image, glass } = drink;
+  const GlassSvg = glasses[glass];
   if (!image && !GlassSvg) {
     image = GENERIC_IMAGE;
   }

@@ -1,33 +1,35 @@
 .home-tiles {
-  min-height: var(--fill-height);
   padding: 1em;
   display: flex;
   flex-direction: column;
-
-  > a {
-    flex: 2 1 auto;
-    padding: 0.3em 0.5em;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: var(--border-radius);
-    background-color: var(--dark-gray);
-    text-align: center;
-    text-decoration: none;
-
-    &:hover {
-      color: var(--white);
-      border-color: var(--white);
-    }
-  }
 
   > * + * {
     margin-top: 0.7em;
   }
 }
 
-a.home-tiles__main {
+.home-tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 2 1 auto;
+  padding: 0.3em 0.5em;
+  border: 1px solid var(--card-border);
+  border-radius: var(--border-radius);
+  background-color: var(--card-bg);
+  text-align: center;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--white);
+    border-color: var(--white);
+  }
+}
+
+.home-tile--main {
   flex-grow: 3;
 }
 
-a.home-tiles__about {
+.home-tile--about {
   flex: 0 0 auto;
 }

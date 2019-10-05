@@ -20,11 +20,7 @@ export default function DrinkCard({ drink }) {
         <Head>
           <title key="title">{drink.title}</title>
         </Head>
-        <CocktailImage
-          image={drink.image}
-          glassType={drink.glass}
-          className="drink-card__image"
-        />
+        <CocktailImage drink={drink} className="drink-card__image" />
         <div className="drink-card__content">
           <h1 className="card-title p-name">{drink.title}</h1>
           <DrinkTags tags={drink.tags} />
