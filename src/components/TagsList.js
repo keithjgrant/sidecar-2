@@ -7,7 +7,7 @@ export default function TagsList({ tags }) {
   const [isExpanded, setIsExpanded] = useState(false);
   let shownTags;
   let toggle;
-  if (isExpanded || tags.length >= LIMIT) {
+  if (isExpanded || !tags.length || tags.length >= LIMIT) {
     shownTags = tags;
   } else {
     shownTags = tags.splice(0, LIMIT);
