@@ -29,11 +29,11 @@ export default function HomeTiles() {
       <Link href="/tags">
         <a className="home-tile">Tags</a>
       </Link>
-      <TileRow drinks={featured} heading="Featured" />
-      <TileRow drinks={latest} heading="Recently added" />
       <Link href="/about">
         <a className="home-tile home-tile--about">About</a>
       </Link>
+      <TileRow drinks={featured} heading="Featured" />
+      <TileRow drinks={latest} heading="Recently added" />
     </div>
   );
 }

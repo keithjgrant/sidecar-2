@@ -3,22 +3,13 @@ import Link from 'next/link';
 import CocktailImage from './CocktailImage';
 import './DrinkTile.scss';
 
-export default function DrinkTile({ drink }) {
+export default function DrinkTile({ drink, className }) {
   return (
     <Link href={`/drinks/${drink.basename}`}>
-      {drink.image && false ? (
-        <a className="drink-tile" style={{
-          backgroundImage: `url(/static${drink.image.url})`,
-          backgroundPosition: drink.image.align || '50%',
-        }}>
-        <div className="drink-tile__title">{drink.title}</div>
-      </a>
-    ) : (
-      <a className="drink-tile">
+      <a className={`drink-tile ${className}`}>
         <CocktailImage drink={drink} className="drink-tile__image" />
         <div className="drink-tile__title">{drink.title}</div>
       </a>
-    )}
     </Link>
   );
 }

@@ -1,14 +1,26 @@
 .home-tiles {
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
+  --gap-size: 0.6em;
+  padding: 1em 1em calc(1em - var(--gap-size));
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  grid-template-rows: 3fr 1fr 1fr auto 30vw auto 30vw;
 
-  > * + * {
-    margin-top: 0.7em;
+  > * {
+    margin-bottom: var(--gap-size);
+  }
+
+  @media(min-width: 600px) {
+    grid-template-rows: 3fr 1fr 1fr auto 170px auto 170px;
+  }
+
+  @media(min-width: 800px) {
+    margin: 0 auto;
+    width: 800px;
   }
 }
 
 .home-tile {
+  grid-column: 1 / -1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,12 +36,4 @@
     color: var(--white);
     border-color: var(--white);
   }
-}
-
-.home-tile--main {
-  flex-grow: 3;
-}
-
-.home-tile--about {
-  flex: 0 0 auto;
 }

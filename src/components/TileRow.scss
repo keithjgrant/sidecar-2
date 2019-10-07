@@ -4,11 +4,15 @@
 }
 
 .tile-group__heading {
+  grid-column: 1 / -1;
   padding: 0.2rem 0.5rem 0.1rem;
   color: var(--white);
   opacity: 0.3;
   font-size: 0.8rem;
   text-align: right;
+}
+.home-tiles div.tile-group__heading {
+  margin-bottom: 0;
 }
 
 .tile-row {
