@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import LogoSvg from './LogoSvg';
+import './Logo.scss';
 
 export default function Logo({route}) {
   let H;

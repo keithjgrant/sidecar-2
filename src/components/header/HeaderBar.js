@@ -1,11 +1,8 @@
 import Logo from './Logo';
 import Nav from './Nav';
+import './HeaderBar.scss';
 
-export default function HeaderBar({route}) {
-  // if (route === '/') {
-  //   return null;
-  // }
-
+export default function HeaderBar() {
   return (
     <header className="header-bar">
       <Logo />

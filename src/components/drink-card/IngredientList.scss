@@ -1,7 +1,7 @@
 .ingredients {
   margin-top: 0.3em;
   padding: 0.5em 0.5em 0.5em 1.5em;
-  border-bottom: 1px solid $gray-4;
+  border-bottom: 1px solid var(--gray-4);
   font-style: italic;
   list-style-type: none;
 
@@ -13,7 +13,7 @@
       top: 0.15em;
       left: -0.9em;
       content: '\2022 ';
-      color: $brand-primary;
+      color: var(--brand-primary);
       line-height: 1;
     }
   }
@@ -28,7 +28,7 @@
 
   .ingredients__label {
     margin-right: 0.4em;
-    color: $brand-primary;
+    color: var(--brand-primary);
     font-size: 0.64em;
     font-weight: bold;
     text-transform: uppercase;

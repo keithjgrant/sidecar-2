@@ -1,13 +1,14 @@
 import React from 'react';
 import Head from 'next/head';
 import Markdown from 'react-markdown';
-import CocktailImage from './CocktailImage';
+import CocktailImage from '../CocktailImage';
 import DrinkTags from './DrinkTags';
 import ScaleIndicator from './ScaleIndicator';
 import PrepMethod from './PrepMethod';
 import GlassType from './GlassType';
 import IngredientList from './IngredientList';
-import { formatDate } from '../util';
+import { formatDate } from '../../util';
+import './DrinkCard.scss';
 
 export default function DrinkCard({ drink }) {
   return (

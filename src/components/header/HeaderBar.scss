@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: baseline;
-  background-color: $brand-primary;
+  background-color: var(--brand-primary);
 
   > :nth-child(2) {
     flex-grow: 1;

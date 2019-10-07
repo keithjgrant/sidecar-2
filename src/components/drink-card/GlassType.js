@@ -1,5 +1,5 @@
 import React from 'react';
-import glasses from './svg/glasses';
+import glasses from '../svg/glasses';
 
 export default function GlassType({ drink }) {
   const GlassSvg = glasses[drink.glass];

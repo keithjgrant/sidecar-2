@@ -1,5 +1,6 @@
 import React from 'react';
-import InlineMarkdown from './InlineMarkdown';
+import InlineMarkdown from '../InlineMarkdown';
+import './IngredientList.scss';
 
 export default function IngredientList({ items = [], garnish }) {
   return (

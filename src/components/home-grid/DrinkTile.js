@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import CocktailImage from './CocktailImage';
+import CocktailImage from '../CocktailImage';
 import './DrinkTile.scss';
 
 export default function DrinkTile({ drink, className }) {

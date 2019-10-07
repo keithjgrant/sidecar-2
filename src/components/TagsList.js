@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 const LIMIT = 3;
 
+// TODO remove expand button logic (lives in DrinkTags now)
 export default function TagsList({ tags }) {
   const [isExpanded, setIsExpanded] = useState(false);
   let shownTags;

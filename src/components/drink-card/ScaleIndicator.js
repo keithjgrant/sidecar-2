@@ -1,4 +1,5 @@
 import React from 'react';
+import './ScaleIndicator.scss';
 
 const angles = [-39, 0, 39];
 

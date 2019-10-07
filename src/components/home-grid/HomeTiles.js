@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Link from 'next/link';
-import Context from '../AppContext';
+import Context from '../../AppContext';
 import TileRow from './TileRow';
 import './HomeTiles.scss';
 

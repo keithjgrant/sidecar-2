@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './DrinkTags.scss';
 
 export default function DrinkTags({ tags }) {
   const showToggle = tags.length > 5;

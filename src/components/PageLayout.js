@@ -1,4 +1,4 @@
-import HeaderBar from './HeaderBar';
+import HeaderBar from './header/HeaderBar';
 import './PageLayout.scss';
 
 export default props => {

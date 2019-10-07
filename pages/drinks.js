@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import Context from '../src/AppContext';
-import DrinkCard from '../src/components/DrinkCard';
+import DrinkCard from '../src/components/drink-card/DrinkCard';
 import DrinkList from '../src/components/DrinkList';
 
 export default function Drinks() {
