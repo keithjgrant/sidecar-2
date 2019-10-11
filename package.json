@@ -16,14 +16,14 @@
   "author": "Keith J. Grant",
   "license": "ISC",
   "dependencies": {
-    "@mdx-js/loader": "^1.4.5",
-    "@next/mdx": "^9.0.6",
+    "@mdx-js/loader": "^1.5.1",
+    "@next/mdx": "^9.1.1",
     "@zeit/next-sass": "^1.0.1",
     "next": "^7.0.2",
     "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-markdown": "^4.0.4"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-markdown": "^4.2.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
