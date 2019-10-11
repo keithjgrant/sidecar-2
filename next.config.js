@@ -8,6 +8,9 @@ const drinks = require('./static/data/drinks.json');
 
 const tags = new Set();
 Object.keys(drinks).forEach(d => {
+  if (!drinks[d].tags) {
+    return;
+  }
   drinks[d].tags.forEach(t => tags.add(t));
 });
 

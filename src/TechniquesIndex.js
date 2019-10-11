@@ -51,7 +51,7 @@ export default function TechniquesIndex() {
           <TileLink href="/techniques/sour">Sour</TileLink>
         </li>
         {/* <li>
-          <TileLink href="/techniques/sidecar">Sidecar</TileLink>
+          <TileLink href="/techniques/modified-sour">Modified Sour</TileLink>
         </li>
         <li>
           <TileLink href="/techniques/old-fashioned">Old Fashioned</TileLink>

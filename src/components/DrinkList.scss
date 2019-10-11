@@ -31,7 +31,7 @@
     display: block;
     width: var(--thumbnail-size);
     height: var(--thumbnail-size);
-    background-size: cover;
+    object-fit: cover;
 
     svg {
       height: 100%;

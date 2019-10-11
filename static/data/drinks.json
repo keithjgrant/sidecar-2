@@ -34,6 +34,535 @@
     "iso8601Date": "2019-09-20T13:00:00-07:00",
     "basename": "angel-city-fizz"
   },
+  "bannon-tantrum": {
+    "title": "Bannon Tantrum",
+    "date": "2018-01-16T11:54:50-05:00",
+    "glass": "rocks",
+    "booziness": 1,
+    "sweetness": 2,
+    "family": "sour",
+    "ingredients": [
+      "2 oz Dry Fly vodka",
+      "½ oz meyer lemon juice",
+      "½ oz simple syrup"
+    ],
+    "tags": [
+      "summer",
+      "sidecar-original",
+      "vodka",
+      "lemon",
+      "shaken"
+    ],
+    "image": {
+      "url": "/images/drinks/bannon-tantrum.jpg",
+      "alt": "A crystal glass with the cocktail in front of a bottle of Dry Fly vodka and a meyer lemon",
+      "align": "40% 45%"
+    },
+    "intro": "“The media should keep its mouth shut and just listen for awhile”&mdash;_Steve Bannon throwing a tantrum on Jan 26, 2017_\n\nThis must be made with [Dry Fly brand vodka](http://www.dryflydistilling.com/dryfly-product/washington-wheat-vodka/); It has an amazing wheat flavor and I created this recipe specifically to let it shine.\n",
+    "content": "\n\nAdd everything to a shaker with ice. Shake. Strain into a rocks glass over ice.\n",
+    "iso8601Date": "2018-01-16T08:54:50-08:00",
+    "basename": "bannon-tantrum"
+  },
+  "bees-knees": {
+    "title": "Bees Knees",
+    "date": "2018-01-15T11:17:51-05:00",
+    "glass": "coupe",
+    "sweetness": 2,
+    "booziness": 2,
+    "family": "sour",
+    "ingredients": [
+      "2 oz gin",
+      "¾ oz lemon juice",
+      "¾ oz honey syrup"
+    ],
+    "garnish": "lemon twist",
+    "tags": [
+      "gin",
+      "lemon",
+      "honey",
+      "shaken"
+    ],
+    "content": "\nAdd gin, lemon juice, and [honey syrup](/ingredients/simple-syrups/#honey-syrup) to a cocktail shaker. Shake. Strain into coupe glass.\n\nGarnish with lemon twist.\n",
+    "iso8601Date": "2018-01-15T08:17:51-08:00",
+    "basename": "bees-knees"
+  },
+  "bijou": {
+    "title": "Bijou",
+    "date": "2018-01-16T12:22:00-05:00",
+    "glass": "coupe",
+    "sweetness": 3,
+    "booziness": 3,
+    "ingredients": [
+      "1 oz London dry gin",
+      "1 oz Green Chartreuse",
+      "1 oz sweet vermouth"
+    ],
+    "garnish": "lemon twist",
+    "tags": [
+      "gin",
+      "london-dry-gin",
+      "green-chartreuse",
+      "sweet-vermouth"
+    ],
+    "image": {
+      "url": "/images/drinks/bijou.jpg",
+      "alt": "",
+      "align": "80% 30%"
+    },
+    "content": "\nStir the liquids in a cocktail shaker with ice. Strain into a coupe glass.\n\nExpress the oils from the lemon peel over the drink and add it to the glass.\n",
+    "iso8601Date": "2018-01-16T09:22:00-08:00",
+    "basename": "bijou"
+  },
+  "blanc-arita": {
+    "title": "Blanc-arita",
+    "date": "2018-01-15T11:17:51-05:00",
+    "glass": "rocks",
+    "sweetness": 3,
+    "booziness": 2,
+    "family": "sidecar",
+    "ingredients": [
+      "2 oz silver tequila",
+      "½ oz blanc vermouth",
+      "½ oz lime juice",
+      "½ oz agave syrup",
+      "1 dash orange bitters"
+    ],
+    "tags": [
+      "tequila",
+      "blanc-vermouth",
+      "lime",
+      "shaken"
+    ],
+    "content": "\nShake vigorously with ice. Strain into rocks glass over fresh ice.\n",
+    "iso8601Date": "2018-01-15T08:17:51-08:00",
+    "basename": "blanc-arita"
+  },
+  "blushing-betty": {
+    "title": "Blushing Betty",
+    "date": "2018-01-15T11:17:51-05:00",
+    "glass": "rocks",
+    "sweetness": 2,
+    "booziness": 1,
+    "family": "sour",
+    "ingredients": [
+      "1½ oz bourbon",
+      "1 oz grapefruit juice",
+      "½ oz simple syrup"
+    ],
+    "garnish": "grapefruit twist",
+    "tags": [
+      "bourbon",
+      "grapefruit",
+      "shaken"
+    ],
+    "content": "\nShake vigorously with ice. Strain into rocks glass over fresh ice.\n\nGarnish with grapefruit twist.\n",
+    "iso8601Date": "2018-01-15T08:17:51-08:00",
+    "basename": "blushing-betty"
+  },
+  "boulevardier": {
+    "title": "Boulevardier",
+    "date": "2018-02-02T21:41:08.000Z",
+    "glass": "rocks",
+    "sweetness": 2,
+    "booziness": 3,
+    "family": "martini",
+    "ingredients": [
+      "1½ oz bourbon or rye",
+      "¾ oz Campari",
+      "¾ oz sweet vermouth"
+    ],
+    "garnish": "orange twist or brandied cherry",
+    "tags": [
+      "whiskey",
+      "bourbon",
+      "rye-whiskey",
+      "campari",
+      "sweet-vermouth",
+      "stirred"
+    ],
+    "intro": "A close cousin of the [Negroni](/drinks/negroni/). For a more earthy variation, try substituting St. George [Bruto Americano](http://stgeorgespirits.com/spirits/bruto-americano/) for Campari.",
+    "content": "\n\nStir whiskey, Campari, and vermouth with ice. Strain into rocks glass over fresh ice.\n\nGarnish with orange twist or a brandied cherry.\n",
+    "iso8601Date": "2018-02-02T13:41:08-08:00",
+    "basename": "boulevardier"
+  },
+  "brandy-alexander": {
+    "title": "Brandy Alexander",
+    "date": "2018-01-15T11:17:51-05:00",
+    "glass": "coupe",
+    "sweetness": 3,
+    "booziness": 2,
+    "family": "flip",
+    "ingredients": [
+      "2 oz Cognac or other brandy",
+      "1 oz heavy cream",
+      "½ oz [demerara syrup](/ingredients/simple-syrups/#variants)"
+    ],
+    "garnish": "fresh grated nutmeg",
+    "tags": [
+      "brandy",
+      "cream",
+      "shaken",
+      "sweet"
+    ],
+    "content": "\nAdd brandy, cream, and demerara syrup to a cocktail shaker. Shake. Strain into coupe glass.\n\nTop with grated nutmeg.\n",
+    "iso8601Date": "2018-01-15T08:17:51-08:00",
+    "basename": "brandy-alexander"
+  },
+  "brandy-cocktail-2": {
+    "title": "Brandy Cocktail No. 2",
+    "date": "2018-02-02T21:46:48.000Z",
+    "glass": "coupe",
+    "sweetness": 2,
+    "booziness": 3,
+    "family": "martini",
+    "ingredients": [
+      "2 oz brandy",
+      "½ oz Dry Curaçao orange liqueur",
+      "3 dashes Angostura bitters"
+    ],
+    "garnish": "maraschino cherry",
+    "tags": [
+      "brandy",
+      "orange-liqueur",
+      "dry-curacao",
+      "stirred"
+    ],
+    "content": "\n\nStir well with ice. Strain into a coupe glass.\n\nGarnish with a Maraschino cherry.\n",
+    "iso8601Date": "2018-02-02T13:46:48-08:00",
+    "basename": "brandy-cocktail-2"
+  },
+  "cherry-on-top": {
+    "title": "Cherry on Top",
+    "date": "2018-01-16T11:57:50-05:00",
+    "glass": "collins",
+    "sweetness": 2,
+    "booziness": 1,
+    "family": "highball",
+    "ingredients": [
+      "5 fresh cherries, pitted",
+      "1½ oz vodka",
+      "½ oz Luxardo Maraschino",
+      "¾ oz lemon juice",
+      "¼ oz simple syrup"
+    ],
+    "garnish": "1 fresh cherry",
+    "tags": [
+      "vodka",
+      "maraschino",
+      "cherry",
+      "lemon",
+      "shaken"
+    ],
+    "image": {
+      "url": "/images/drinks/cherry-on-top.jpg",
+      "alt": "",
+      "align": "70% 30%"
+    },
+    "content": "\nMuddle five cherries in the bottom of your cocktail shaker. Add the liquids and ice. Shake.\n\n[Double strain](/techniques/straining/#double-straining) into a Collins glass filled with ice. Set a cherry atop the ice as a garnish.\n",
+    "iso8601Date": "2018-01-16T08:57:50-08:00",
+    "basename": "cherry-on-top"
+  },
+  "cold-buttered-rum": {
+    "title": "Cold Buttered Rum",
+    "date": "2018-12-13T13:55:40.000Z",
+    "glass": "mug",
+    "sweetness": 3,
+    "booziness": 2,
+    "family": "sour",
+    "ingredients": [
+      "2 oz spiced rum",
+      "fat oz (1⅛ oz) [butter syrup](/ingredients/butter-syrup/)",
+      "½ oz lime juice, strained"
+    ],
+    "tags": [
+      "rum",
+      "spiced-rum",
+      "butter-syrup",
+      "lime",
+      "shaken",
+      "sweet"
+    ],
+    "intro": "From Dave Arnold’s [Liquid Intelligence](https://www.amazon.com/Liquid-Intelligence-Science-Perfect-Cocktail/dp/0393089037)",
+    "content": "\nCombine ingredients in a shaker. Add ice and shake. Strain into an old-fashioned glass or glass mug.\n",
+    "iso8601Date": "2018-12-13T05:55:40-08:00",
+    "basename": "cold-buttered-rum"
+  },
+  "daiquiri": {
+    "title": "Daiquiri",
+    "date": "2018-01-15T11:17:51-05:00",
+    "glass": "coupe",
+    "sweetness": 2,
+    "booziness": 2,
+    "family": "sour",
+    "ingredients": [
+      "2 oz white rum",
+      "¾ oz lime juice",
+      "¾ oz simple syrup"
+    ],
+    "tags": [
+      "rum",
+      "lime",
+      "classic-cocktail",
+      "shaken"
+    ],
+    "content": "\nAdd all ingredients to a cocktail shaker with plenty of ice. Shake well and strain into a coupe glass.\n",
+    "iso8601Date": "2018-01-15T08:17:51-08:00",
+    "basename": "daiquiri"
+  },
+  "dalmatian": {
+    "title": "Dalmatian",
+    "date": "2018-01-27T19:58:55.000Z",
+    "glass": "rocks",
+    "sweetness": 3,
+    "booziness": 1,
+    "family": "sour",
+    "ingredients": [
+      "1½ oz vodka",
+      "1 oz [black pepper syrup](/ingredients/simple-syrup/#flavor-infusion)",
+      "3 oz fresh grapefruit juice"
+    ],
+    "tags": [
+      "vodka",
+      "grapefruit",
+      "black-pepper-syrup",
+      "shaken"
+    ],
+    "content": "\nShake vigorously with ice. Strain into a rocks glass with fresh ice.\n",
+    "iso8601Date": "2018-01-27T11:58:55-08:00",
+    "basename": "dalmatian"
+  },
+  "egg-sour": {
+    "title": "Egg Sour",
+    "date": "2018-01-17T17:54:00-05:00",
+    "glass": "coupe",
+    "sweetness": 3,
+    "booziness": 2,
+    "family": "flip",
+    "ingredients": [
+      "1 oz brandy",
+      "1 oz orange liqueur",
+      "¼ oz lemon juice",
+      "¼ oz simple syrup",
+      "1 whole egg"
+    ],
+    "garnish": "grated nutmeg",
+    "tags": [
+      "winter",
+      "brandy",
+      "orange-liqueur",
+      "lemon",
+      "egg",
+      "shaken"
+    ],
+    "image": {
+      "url": "/images/drinks/egg-sour.jpg",
+      "alt": "A creamy-looking egg sour, filling a small coupe glass to the brim",
+      "align": "50% 40%"
+    },
+    "intro": "One of my wintertime favorites",
+    "content": "\nAdd everything except nutmeg to a cocktail shaker. [Dry shake](/techniques/shaking/#dry-shaking); add ice and shake. [Double-strain](/techniques/straining/#double-straining) into a coupe glass.\n\nGarnish with freshly-grated nutmeg.\n",
+    "iso8601Date": "2018-01-17T14:54:00-08:00",
+    "basename": "egg-sour"
+  },
+  "el-presidente": {
+    "title": "El Presidente",
+    "date": "2018-01-16T12:27:00-05:00",
+    "glass": "coupe",
+    "sweetness": 2,
+    "booziness": 2,
+    "family": "martini",
+    "ingredients": [
+      "1½ oz white rum",
+      "¾ oz curaçao or orange liqueur",
+      "¾ oz blanc vermouth",
+      "dash of grenadine"
+    ],
+    "garnish": "orange twist",
+    "tags": [
+      "rum",
+      "orange-liqueur",
+      "blanc-vermouth",
+      "stirred"
+    ],
+    "image": {
+      "url": "/images/drinks/el-presidente.jpg",
+      "alt": "",
+      "align": "80% 40%"
+    },
+    "intro": "Dry vermouth can be substituited for blanc vermouth (resulting in a slightly dryer drink, naturally).",
+    "content": "\nStir all liquids with ice. Strain into a coupe glass. Garnish with orange twist.\n",
+    "iso8601Date": "2018-01-16T09:27:00-08:00",
+    "basename": "el-presidente"
+  },
+  "elder-fashioned": {
+    "title": "Elder Fashioned",
+    "date": "2018-01-27T20:14:01.000Z",
+    "glass": "rocks",
+    "sweetness": 3,
+    "booziness": 3,
+    "family": "old fashioned",
+    "ingredients": [
+      "2 oz Plymouth gin",
+      "¾ oz elderflower liqueur",
+      "2 dashes orange bitters"
+    ],
+    "garnish": "grapefruit twist",
+    "tags": [
+      "gin",
+      "plymouth-gin",
+      "elderflower-liqueur",
+      "stirred"
+    ],
+    "featured": true,
+    "image": {
+      "url": "/images/drinks/elder-fashion.jpg",
+      "alt": "A crystal-clear cocktail in a rocks glass on a bar mat. Beside it is a vegetable peeler, a grapefruit, and a cocktail shaker.",
+      "align": "50% 50%"
+    },
+    "intro": "The right gin is essential in this cocktail—it cannot be overly piney or too floral. Stick with Plymouth if you can. In a pinch, you can get away with Hendrick’s and its cucumber flavor. Most other gins I’ve tried have not fared as well.",
+    "content": "\n[Stir](/techniques/stirring/) bitters, gin, and elderflower liqueur with plenty of ice. Strain into a rocks glass with fresh ice.\n\nExpress oils from grapefruit twist over the glass and rub the peel around the rim. Add peel to the glass.\n",
+    "iso8601Date": "2018-01-27T12:14:01-08:00",
+    "basename": "elder-fashioned"
+  },
+  "french-kiss": {
+    "title": "French Kiss",
+    "date": "2018-01-08T12:21:43-05:00",
+    "tags": [
+      "sweet-vermouth",
+      "dry-vermouth",
+      "built"
+    ],
+    "image": {
+      "url": "/images/drinks/french-kiss.jpg",
+      "alt": "A French Kiss in a crystal glass in front of two bottles of vermouth",
+      "align": "50% 80%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\n\nAs always, use only [high quality vermouth](/ingredients/vermouth/#brands) that is [fresh](/ingredients/vermouth/#storing-vermouth) (less than three months old).\n\n{{< /summary >}}\n\n{{< ingredients\n\"2 oz sweet vermouth\"\n\"2 oz dry vermouth\"\n>}}\n\n{{< instructions >}}\n\nBuild in a rocks glass. Garnish with a lemon twist.\n\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-08T09:21:43-08:00",
+    "basename": "french-kiss"
+  },
+  "gbc": {
+    "title": "GBC",
+    "date": "2018-01-17T23:44:46.000Z",
+    "tags": [
+      "gin",
+      "lime",
+      "summer",
+      "built"
+    ],
+    "image": {
+      "url": "/images/drinks/gbc.jpg",
+      "alt": "A refreshing-looking GBC in a crystal rocks glass",
+      "align": "50% 50%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nA refreshing, summery drink.\n{{< /summary >}}\n\n{{< ingredients\n  \"1 oz gin\"\n  \"½ oz lime juice\"\n  \"¼ oz simple syrup\"\n  \"3 basil leaves, sliced into strips\"\n  \"4 cucumber slices\"\n  \"4 oz tonic water\"\n>}}\n\n\n{{< instructions >}}\nMiddle basil leaves, three cucumber slices, and simple syrup in the base of a rocks glass. Add the gin and lime, and crushed ice.\n\nTop with tonic water. Garnish with slice of cucumber.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-17T15:44:46-08:00",
+    "basename": "gbc"
+  },
+  "gin-and-tonic": {
+    "title": "Gin and Tonic",
+    "date": "2018-01-17T23:59:51.000Z",
+    "tags": [
+      "gin",
+      "genever-gin",
+      "lime",
+      "built"
+    ],
+    "image": {
+      "url": "/images/drinks/gin-and-tonic.jpg",
+      "alt": "A gin and tonic beside a bottle of Aviation gin and Fever Tree Mediterranean tonic water",
+      "align": "70% 70%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nA deceptively simple drink, these particular instructions are meant to minimize the amount of carbonation lost from the tonic water. Recipe by Dave Arnold.\n\nTraditionally made with a London dry gin, but I think it’s fantastic with [genever-style gin](/ingredients/gin/#genever).\n{{< /summary >}}\n\n{{< ingredients\n  \"1¾ oz gin\"\n  \"3½ oz tonic water\"\n  \"¼ lime, wedge\"\n>}}\n\n\n{{< instructions >}}\nPre-chill a rocks glass and gin in the freezer.\n\nAdd the gin to the rocks glass. Gently pour in the tonic water.\n\nSqueeze the juice from the lime wedge into the glass. Gently add ice; this will stir the drink just enough to combine. Set the squeezed lime wedge atop the ice, so you can smell it as you take a sip.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-17T15:59:51-08:00",
+    "basename": "gin-and-tonic"
+  },
+  "indian-winter": {
+    "title": "Indian Winter",
+    "date": "2018-01-16T11:54:50-05:00",
+    "tags": [
+      "vodka",
+      "lemon",
+      "honey",
+      "egg",
+      "shaken"
+    ],
+    "source": "http://thecharmingdetroiter.com/indian-winter-a-cardamom-winter-cocktail/",
+    "image": {
+      "url": "/images/drinks/indian-winter.jpg",
+      "alt": "Closeup photo of the cocktail in a martini glass with a star anise floating on top",
+      "align": "70% 30%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThis uses [honey syrup](/ingredients/simple-syrup/#honey-syrup) infused with cardomom pods.\n{{< /summary >}}\n\n{{< ingredients\n  \"1½ oz vodka\"\n  \"½ oz lemon juice\"\n  \"½ oz honey cardamom syrup\"\n  \"1 egg white\"\n  \"2 drops Angostura bitters\"\n  \"1 star anise\"\n>}}\n\n{{< instructions >}}\nAdd vodka, lemon juice, syrup, and egg white to a shaker. [Dry shake](/techniques/shaking/#dry-shaking), then add ice and shake. [Double-strain](/techniques/straining/#double-straining) into a coupe glass.\n\nAdd a couple drops of Angostura bitters on top of the foam (for aroma). Float the star anise atop the drink.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-16T08:54:50-08:00",
+    "basename": "indian-winter"
+  },
+  "irish-coffee": {
+    "title": "Irish Coffee",
+    "date": "2018-01-16T11:54:50-05:00",
+    "tags": [
+      "irish-whiskey",
+      "coffee",
+      "burnt-sugar-syrup",
+      "dessert-drink",
+      "built"
+    ],
+    "image": {
+      "url": "/images/drinks/irish-coffee.jpg",
+      "alt": "An Irish Coffee in a decorative glass mug. It has a thick layer of cream floating atop deep brown coffee. A bottle of Tullamore Dew Irish Whiskey is behind the mug.",
+      "align": "60% 10%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThis approach uses [burnt sugar syrup](/ingredients/burnt-sugar-syrup) instead of granulated sugar, so I take pains to warm it and the whiskey before mixing with the coffee to avoid a lukewarm drink.\n\nTechnically, any Irish whiskey will work, but you really ought to use Tullamore Dew.\n{{< /summary >}}\n\n{{< ingredients\n  \"1 oz Irish whiskey\"\n  \"¾ oz burnt sugar syrup\"\n  \"3½ oz extra strong fresh-brewed coffee\"\n  \"1 oz cream, whipped until thick and frothy but still pourable\"\n>}}\n\n{{< instructions >}}\nBrew your coffee with the normal amount of grounds but half the normal amount of water so it is extra strong.\n\nPour hot water into the mug to pre-warm it, and into a small bowl. Add whiskey and burnt sugar syrup to a metal cocktail shaker. Place the shaker in the bowl to warm the whiskey and syrup. Do this while your coffee brews so it can sit for a couple minutes.\n\nPour out the hot water from the mug. Add the whiskey-syrup mixture and about 3½ oz coffee. The coffee will float atop the syrup, so give it a good stir. Then, holding a spoon just above the coffee, pour the frothed cream over the spoon so it floats atop the drink. Enjoy it while hot!\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-16T08:54:50-08:00",
+    "basename": "irish-coffee"
+  },
+  "lemon-bomb": {
+    "title": "Lemon Bomb",
+    "date": "2018-12-10T17:47:26.000Z",
+    "tags": [
+      "rum",
+      "aged-rum",
+      "lemon",
+      "egg",
+      "butter-syrup",
+      "sweet"
+    ],
+    "featured": true,
+    "image": {
+      "url": "/images/drinks/lemon-bomb.jpg",
+      "alt": "A creamy-looking yellow cocktail topped with a layer of white foam",
+      "align": "50% 25%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThis is easier to make in batches of 2 or 4 drinks to make beating the egg whites easier, but here are the measurements for a single cocktail, which you can scale up as needed.\n{{< /summary >}}\n\n\n{{< ingredients\n  \"1½ oz aged or gold rum\"\n  \"¾ oz [butter syrup](/ingredients/butter-syrup)\"\n  \"¼ oz simple syrup\"\n  \"½ oz lemon juice\"\n  \"1 egg, separated\"\n  \"¼ oz white rum\"\n  \"½ tbsp granulated sugar\"\n  \"lemon zest for garnish\"\n>}}\n\n\n{{< instructions >}}\nAdd aged rum, butter syrup, lemon juice, and egg yolk to a cocktail shaker. [Dry shake](/techniques/shaking/#dry-shaking), then add ice and shake again. [Double-strain](/techniques/straining/#double-straining) into a coupe.\n\nIn a stand mixer, add egg white and begin beating. Add granulated sugar and white rum. Beat just until soft peaks begin to form. Spoon the foam over the top of the cocktail (some unincorporated liquid may remain at the bottom of the mixer bowl; discard it).\n\nGarnish with lemon zest\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-12-10T09:47:26-08:00",
+    "basename": "lemon-bomb"
+  },
+  "little-bit-bittah": {
+    "title": "Little Bit Bittah",
+    "date": "2018-01-18T01:44:41.000Z",
+    "tags": [
+      "vodka",
+      "campari",
+      "grapefruit",
+      "shaken"
+    ],
+    "content": "\n{{< wrap >}}\n{{< ingredients\n  \"2 oz vodka\"\n  \"½ oz Campari\"\n  \"1½ oz grapefruit juice\"\n  \"½ oz grenadine\"\n  \"grapefruit wedge\"\n>}}\n\n\n{{< instructions >}}\nShake vodka, Campari, grapefruit juice, and grenadine. Strain into rocks glass over ice.\n\nGarnish with grapefruit wedge.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-17T17:44:41-08:00",
+    "basename": "little-bit-bittah"
+  },
+  "manhattan": {
+    "title": "Manhattan",
+    "date": "2018-01-13T16:31:10.000Z",
+    "tags": [
+      "rye-whiskey",
+      "sweet-vermouth",
+      "classic-cocktail",
+      "stirred"
+    ],
+    "content": "\n{{< wrap >}}\n{{< ingredients\n  \"2 oz rye whiskey\"\n  \"1 oz sweet vermouth\"\n  \"2 dashes Angostura bitters\"\n>}}\n\n\n{{< instructions >}}\nCombine in a shaker with ice. Stir, then strain into a coupe glass.\n\nGarnish with a Maraschino cherry.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-13T08:31:10-08:00",
+    "basename": "manhattan"
+  },
   "maple-bourbon-sour": {
     "title": "Maple Bourbon Sour",
     "date": "2018-12-12T15:13:33.000Z",
@@ -55,6 +584,123 @@
     "iso8601Date": "2018-12-12T07:13:33-08:00",
     "basename": "maple-bourbon-sour"
   },
+  "maple-leaf": {
+    "title": "Maple Leaf",
+    "date": "2018-01-15T11:17:51-05:00",
+    "tags": [
+      "bourbon",
+      "lemon",
+      "shaken"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThe recipe where I found this drink said, “drink on a porch with an old dog.” It’s solid advice.\n{{< /summary >}}\n\n{{< ingredients\n  \"2 oz bourbon\"\n  \"¾ oz real maple syrup\"\n  \"¾ oz lemon juice\"\n  \"cinnamon stick\"\n>}}\n\n\n{{< instructions >}}\nShake vigorously with ice. Strain into rocks glass over crushed ice.\n\nGarnish with cinnamon stick.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-15T08:17:51-08:00",
+    "basename": "maple-leaf"
+  },
+  "margarita": {
+    "title": "Margarita",
+    "date": "2018-01-17T14:28:50-05:00",
+    "tags": [
+      "tequila",
+      "orange-liqueur",
+      "lime",
+      "shaken"
+    ],
+    "content": "\n\n{{< wrap >}}\n{{< summary >}}\nIf you’re feeling extra adventurous, muddle one or two slices of jalapeño in your shaker before adding the ingredients.\n{{< /summary >}}\n\n\n{{< ingredients\n  \"2 oz tequila\"\n  \"¾ oz orange liqueur\"\n  \"¾ oz lime juice\"\n  \"¼ oz agave syrup\"\n  \"1 pinch of salt\"\n>}}\n\n\n{{< instructions >}}\nShake vigorously with ice. Strain into a rocks glass filled with fresh ice.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-17T11:28:50-08:00",
+    "basename": "margarita"
+  },
+  "martinez": {
+    "title": "Martinez",
+    "date": "2018-02-02T21:24:11.000Z",
+    "tags": [
+      "gin",
+      "old-tom-gin",
+      "genever-gin",
+      "sweet-vermouth",
+      "maraschino",
+      "stirred"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThis is most commonly made with an old tom gin, but I prefer genever. This does not work well with a london dry gin.\n{{< /summary >}}\n\n{{< ingredients\n  \"2 oz genever gin\"\n  \"1 oz sweet vermouth\"\n  \"1 barspoon Luxardo Maraschino liqueur\"\n  \"1 dash Angostura bitters\"\n  \"1 dash orange bitters\"\n  \"lemon twist\"\n>}}\n\n\n{{< instructions >}}\nStir with ice. Strain into a coupe glass.\n\nGarnish with lemon twist.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-02-02T13:24:11-08:00",
+    "basename": "martinez"
+  },
+  "martini": {
+    "title": "Martini",
+    "date": "2018-01-13T16:30:58.000Z",
+    "tags": [
+      "gin",
+      "dry-vermouth",
+      "classic-cocktail",
+      "stirred"
+    ],
+    "image": {
+      "url": "/images/drinks/martini.jpg",
+      "alt": "",
+      "align": "0% 50%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nEveryone has an opinion about martinis. I’ll spare you mine, and just give you my recipe.\n\nJust about any [type of gin](/ingredients/gin/) works in a martini (but if you have Aviation available, give my [Pilot’s License](/drinks/pilots-license) variation a try).\n{{< /summary >}}\n\n{{< ingredients\n\"2 oz of your favorite gin\"\n\"½ oz dry vermouth\"\n>}}\n\n{{< instructions >}}\nAdd to cocktail shaker with plenty of ice. Stir well, then strain into a martini glass.\n\nGarnish with a lemon twist.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-13T08:30:58-08:00",
+    "basename": "martini"
+  },
+  "mexico-city": {
+    "title": "Mexico City",
+    "date": "2018-01-26T11:47:00-05:00",
+    "tags": [
+      "tequila",
+      "tequila-reposado",
+      "sweet-vermouth",
+      "stirred"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThis is a fun variation on a [Manhattan](/drinks/manhattan/), with tequila in place of the whiskey. Use a high-quality tequila.\n{{< /summary >}}\n\n{{< ingredients\n  \"2 oz tequila reposado or añejo\"\n  \"1 oz sweet vermouth\"\n  \"1 dashes Angostura bitters\"\n  \"brandied cherry\"\n  \"orange twist\"\n>}}\n\n{{< instructions >}}\nStir tequila, vermouth, and bitters with plenty of ice. Strain into a coupe glass.\n\nExpress the oils from an orange twist over the drink, then add it and the cherry into the glass.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-26T08:47:00-08:00",
+    "basename": "mexico-city"
+  },
+  "mimosa": {
+    "title": "Mimosa",
+    "date": "2018-01-15T10:17:50-05:00",
+    "tags": [],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nIf someone asks you for a Mimosa, make them a [Vigo](/drinks/vigo/) instead. You’re welcome.\n{{< /summary >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-15T07:17:50-08:00",
+    "basename": "mimosa"
+  },
+  "monkey-grass": {
+    "title": "Monkey Grass",
+    "date": "2018-01-27T20:05:41.000Z",
+    "tags": [
+      "gin",
+      "london-dry-gin",
+      "lime",
+      "jalapeno-syrup",
+      "sidecar-original",
+      "shaken"
+    ],
+    "image": {
+      "url": "/images/drinks/monkey-grass.jpg",
+      "alt": "Cocktail in a coupe glass, garnished with a lime wheel. A jalapeño is on the table in front of it.",
+      "align": "50% 25%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThis is my take on a traditional Gimlet.\n{{< /summary >}}\n\n\n{{< ingredients\n  \"2 oz London dry gin\"\n  \"¾ oz lime juice\"\n  \"¾ oz [jalapeño-infused simple syrup](/ingredients/simple-syrup/#flavor-infusion)\"\n  \"lime wheel\"\n>}}\n\n\n{{< instructions >}}\nShake gin, lime juice, and jalapeño syrup with ice. Strain into a coupe glass.\n\nGarnish with a lime wheel.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-27T12:05:41-08:00",
+    "basename": "monkey-grass"
+  },
+  "negroni-sbagliato": {
+    "title": "Negroni Sbagliato",
+    "date": "2018-01-18T02:34:20.000Z",
+    "tags": [
+      "campari",
+      "sweet-vermouth",
+      "sparkling-wine",
+      "stirred"
+    ],
+    "image": {
+      "url": "/images/drinks/negroni-sbagliato.jpg",
+      "alt": "Bright red drink in a champagne flute",
+      "align": "50% 25%"
+    },
+    "content": "\n{{< wrap >}}\n{{< ingredients\n  \"1½ oz Campari\"\n  \"1½ oz sweet vermouth\"\n  \"1½ oz sparkling wine\"\n  \"orange peel spiral\"\n>}}\n\n\n{{< instructions >}}\nStir together the Campari and sweet vermouth with ice. Strain into a champagne flute. Top with sparkling wine.\n\nGarnish with a thin orange spiral.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-17T18:34:20-08:00",
+    "basename": "negroni-sbagliato"
+  },
   "negroni": {
     "title": "Negroni",
     "date": "2018-12-10T17:24:35.000Z",
@@ -63,9 +709,9 @@
     "booziness": 3,
     "family": "martini",
     "ingredients": [
-      "1 oz London dry gin",
+      "1 oz London dry gin — _Tanqueray_",
       "1 oz Campari",
-      "1 oz sweet vermouth",
+      "1 oz sweet vermouth — _Cocchi di Torino_",
       "grapefruit (or orange) twist garnish"
     ],
     "tags": [
@@ -75,7 +721,7 @@
       "stirred",
       "aperitif"
     ],
-    "intro": "The Negroni is quite sweet, but also bitter and complex. I make mine with Tanquery gin and Cocchi di Torino vermouth.",
+    "intro": "The Negroni is quite sweet, but also bitter and complex. A bold, juniper-heavy gin like Tanqueray stands up to the strong flavors of Campari.",
     "content": "\nStir with plenty of ice. Strain into a coupe glass. It can also be served over ice in a rocks glass.\n\nExpress the oils from the grapefruit peel over the drink and add it to the glass.\n",
     "iso8601Date": "2018-12-10T09:24:35-08:00",
     "basename": "negroni"
@@ -106,6 +752,21 @@
     "iso8601Date": "2018-12-10T09:24:35-08:00",
     "basename": "old-fashioned"
   },
+  "old-pal": {
+    "title": "Old Pal",
+    "date": "2018-02-02T21:28:32.000Z",
+    "tags": [
+      "whiskey",
+      "rye-whiskey",
+      "campari",
+      "dry-vermouth",
+      "orange",
+      "stirred"
+    ],
+    "content": "\n{{< wrap >}}\n{{< ingredients\n\"2 oz rye whiskey\"\n\"¾ oz Campari\"\n\"¾ oz dry vermouth\"\n\"lemon twist\"\n>}}\n\n{{< instructions >}}\nStir with ice. Strain into a coupe glass.\n\nGarnish with lemon twist.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-02-02T13:28:32-08:00",
+    "basename": "old-pal"
+  },
   "pilots-license": {
     "title": "Pilot’s License",
     "date": "2018-12-10T17:24:35.000Z",
@@ -134,5 +795,220 @@
     "content": "\nAdd to cocktail shaker with plenty of ice. Stir well, then strain into a martini glass or coupe.\n\nGarnish with a lemon twist.\n",
     "iso8601Date": "2018-12-10T09:24:35-08:00",
     "basename": "pilots-license"
+  },
+  "pinkest-gin": {
+    "title": "Pinkest Gin",
+    "date": "2018-01-18T02:42:47.000Z",
+    "tags": [
+      "gin",
+      "london-dry-gin",
+      "grapefruit",
+      "shaken"
+    ],
+    "image": {
+      "url": "/images/drinks/pinkest-gin.jpg",
+      "alt": "Pink cocktail in a coupe glass",
+      "align": "30% 20%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\n\n{{< /summary >}}\n\n\n{{< ingredients\n  \"2 oz London dry gin\"\n  \"¾ oz grapefruit juice\"\n  \"½ oz simple syrup\"\n  \"2 dashes Peychaud’s bitters\"\n>}}\n\n\n{{< instructions >}}\nShake vigorously with ice. Strain into a coupe glass. \n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-17T18:42:47-08:00",
+    "basename": "pinkest-gin"
+  },
+  "red-and-black": {
+    "title": "Red and Black",
+    "date": "2018-01-27T19:48:18.000Z",
+    "tags": [
+      "strawberry",
+      "tequila",
+      "tequila-blanco",
+      "lime",
+      "black-pepper-syrup",
+      "shaken"
+    ],
+    "content": "\n{{< wrap >}}\n{{< ingredients\n  \"2 strawberries, hulled & halved\"\n  \"2 oz tequila blanco\"\n  \"1 oz lime juice\"\n  \"¾ oz [black pepper syrup](/indredients/simple-syrup/#flavor-infusion)\"\n  \"salt, sugar, pepper\"\n>}}\n\n\n{{< instructions >}}\nCombine a small amount of salt, sugar, and pepper, and rim the the edge of a collins glass with the mixture.\n\nMuddle the strawberries in the bottom of the glass, then add ice.\n\nCombine remaining ingredients in a cocktail shaker with ice. Shake. Strain into the glass.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-27T11:48:18-08:00",
+    "basename": "red-and-black"
+  },
+  "sazerac": {
+    "title": "Sazerac",
+    "date": "2018-01-19T02:52:24.000Z",
+    "tags": [
+      "rye-whiskey",
+      "absinthe",
+      "stirred"
+    ],
+    "content": "\n{{< wrap >}}\n{{< ingredients\n  \"a splash of absinthe\"\n  \"2 oz rye whiskey\"\n  \"¼ oz simple syrup\"\n  \"3 dashes Peychaud’s bitters\"\n  \"1 dash Angostura bitters\"\n  \"lemon twist, discarded\"\n>}}\n\n\n{{< instructions >}}\nChill a rocks glass in the freezer.\n\nPour a splash of absinthe into the glass; swirl it around to coat the inside of the glass, then pour it out.\n\nStir remaining liquids with plenty of ice. Strain into the rocks glass (with no ice). Express oils from lemon twist into the drink, then [discard the peel](/techniques/twist/#discarding).\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-18T18:52:24-08:00",
+    "basename": "sazerac"
+  },
+  "shoot": {
+    "title": "Shoot",
+    "date": "2019-01-21T13:41:01.000Z",
+    "tags": [
+      "brandy",
+      "rye-whiskey",
+      "elderflower-liqueur",
+      "ginger-syrup",
+      "stirred"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nI had this last year in a restaurant in the international terminal of the Atlanta airport. After a lot of experimenting, this is my recreation—though I suspect the original incorporated the ginger in some sort of bitters rather than a syrup, because my version is just a touch sweeter. The original was made with Templeton Rye and Hennessy Cognac.\n\nHere’s a video tutorial for [making ginger syrup](https://www.youtube.com/watch?v=5Jx2t0DgoWc).\n{{< /summary >}}\n\n{{< ingredients\n  \"1 oz brandy\"\n  \"1 oz rye whiskey\"\n  \"½ oz elderflower liqueur\"\n  \"2 dashes orange bitters\"\n  \"1 barspoon ginger syrup\"\n>}}\n\n\n{{< instructions >}}\n[Stir](/techniques/stirring/) well with plenty of ice. Strain into a coupe.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2019-01-21T05:41:01-08:00",
+    "basename": "shoot"
+  },
+  "sidecar": {
+    "title": "Sidecar",
+    "date": "2018-01-08T11:17:50-05:00",
+    "tags": [
+      "brandy",
+      "orange-liqueur",
+      "lemon",
+      "classic-cocktail",
+      "shaken"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThe simple syrup isn’t traditional, but that’s how I learned it, and I like the touch of additional sweetness.\n{{< /summary >}}\n\n{{< ingredients\n  \"2 oz Cognac\"\n  \"¾ oz orange liqueur\"\n  \"¾ oz lemon juice\"\n  \"¼ oz simple syrup\"\n  \"orange twist, discarded\"\n>}}\n\n{{< instructions >}}\nShake vigorously with ice. Strain into a coupe glass.\n\nExpress the oils from an orange twist over the drink, then [discard the peel](/techniques/twist/#discarding).\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-08T08:17:50-08:00",
+    "basename": "sidecar"
+  },
+  "spiced-rum-milk-punch": {
+    "title": "Spiced Rum Milk Punch",
+    "date": "2018-12-10T17:40:11.000Z",
+    "tags": [
+      "rum",
+      "spiced-rum",
+      "milk",
+      "shaken",
+      "hot",
+      "sweet"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThis is typically done as a cold drink, but I’ve found it truly shines when the milk is warmed and frothed instead.\n{{< /summary >}}\n\n\n{{< ingredients\n  \"1½ oz spiced rum\"\n  \"¾ oz simple syrup\"\n  \"3 oz whole milk\"\n  \"dash vanilla extract\"\n  \"nutmeg & cinnamon for garnish\"\n>}}\n\n\n{{< instructions >}}\n**Cold**: Shake all ingredients in a cocktail shaker with ice. Strain into a rocks glass over fresh ice.\n\n**Hot**: Put the rum, syrup, and vanilla in a metal shaker and heat it gently by placing the shaker in a bowl of hot water. Preheat a small mug with hot water. Meanwhile, heat the milk and froth it with a mixer or milk frother. Empty the mug and add the rum mixture; pour the hot milk into the rum and stir gently to combine.\n\nGarnish with ground nutmeg and cinnamon.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-12-10T09:40:11-08:00",
+    "basename": "spiced-rum-milk-punch"
+  },
+  "tabs-vs-spaces": {
+    "title": "Tabs vs. Spaces",
+    "date": "2018-01-16T12:27:00-05:00",
+    "tags": [
+      "tequila",
+      "green-chartreuse",
+      "lime",
+      "sidecar-original",
+      "shaken"
+    ],
+    "image": {
+      "url": "/images/drinks/tabs-vs-spaces.jpg",
+      "alt": "",
+      "align": "80% 40%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nIt’s a programmer joke. I’m a nerd.\n{{< /summary >}}\n\n{{< ingredients\n  \"2 oz tequila\"\n  \"½ oz Green Chartreuse\"\n  \"¾ oz lime juice\"\n  \"½ oz simple syrup\"\n  \"pinch of salt\"\n>}}\n\n{{< instructions >}}\nAdd everything to a cocktail shaker with ice. Shake. Strain into a coupe glass.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-16T09:27:00-08:00",
+    "basename": "tabs-vs-spaces"
+  },
+  "tarheel-tears": {
+    "title": "Tarheel Tears",
+    "date": "2018-02-02T21:30:45.000Z",
+    "tags": [
+      "ouzo",
+      "rum",
+      "cream",
+      "shaken",
+      "sidecar-original"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nDid North Carolina lose a game? Excellent! Drink the tears of your enemy.\n{{< /summary >}}\n\n{{< ingredients\n  \"1 oz ouzo (anise flavored spirit)\"\n  \"1 oz silver rum\"\n  \"1 oz heavy cream\"\n  \"½ oz simple syrup\"\n  \"a toasted almond, grated\"\n>}}\n\n\n{{< instructions >}}\nAdd ouzo, rum, cream, and syrup into a cocktail shaker with plenty of fresh ice. Shake. Strain into a coupe glass.\n\nGarnish with the grated almond.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-02-02T13:30:45-08:00",
+    "basename": "tarheel-tears"
+  },
+  "tequila-sour": {
+    "title": "Tequila Sour",
+    "date": "2018-01-18T02:48:32.000Z",
+    "tags": [
+      "tequila",
+      "lemon",
+      "burnt-sugar-syrup",
+      "egg",
+      "shaken"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThe burnt sugar syrup is my own addition. \n{{< /summary >}}\n\n\n{{< ingredients\n  \"2 oz tequila\"\n  \"¾ oz lemon juice\"\n  \"¾ oz burnt sugar syrup\"\n  \"1 egg white\"\n  \"1 pinch salt\"\n>}}\n\n\n{{< instructions >}}\n[Dry shake](/techniques/shaking/#dry-shaking), then add ice and shake. [Double-strain](/techniques/straining/#double-straining) into a rocks glass over fresh ice.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-17T18:48:32-08:00",
+    "basename": "tequila-sour"
+  },
+  "the-conference": {
+    "title": "The Conference",
+    "date": "2018-12-10T18:22:55.000Z",
+    "tags": [
+      "whiskey",
+      "rye-whiskey",
+      "cognac",
+      "brandy",
+      "stirred"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nThis is like a kitchen sink of cocktails, almost like somebody couldn’t decide what they wanted in the drink, so they added a bit of everything—it even has two different twists! Yet somehow, it works out.\n{{< /summary >}}\n\n\n{{< ingredients\n  \"½ oz rye whiskey\"\n  \"½ oz bourbon\"\n  \"½ oz cognac\"\n  \"½ oz apple brandy\"\n  \"¼ oz demerara syrup or simple syrup\"\n  \"2 dashes angostura bitters\"\n  \"1 dash Bittermens Xocalatl Mole bitters\"\n  \"orange twist for garnish\"\n  \"lemon twist for garnish\"\n>}}\n\n\n{{< instructions >}}\nStir all ingredients (apart from twists) in an ice-filled shaker glass. Strain into an old fashioned glass over fresh ice. Add the orange and lemon twists.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-12-10T10:22:55-08:00",
+    "basename": "the-conference"
+  },
+  "vigo": {
+    "title": "Vigo",
+    "date": "2018-01-15T11:17:50-05:00",
+    "tags": [
+      "gin",
+      "london-dry-gin",
+      "blanc-vermouth",
+      "orange-juice",
+      "sparkling-wine",
+      "shaken"
+    ],
+    "image": {
+      "url": "/images/drinks/vigo.jpg",
+      "alt": "",
+      "align": "50% 20%"
+    },
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nI didn’t invent this drink, but I did give it the name.\n{{< /summary >}}\n\n{{< ingredients\n  \"2 oz orange juice\"\n  \"1 oz London dry gin\"\n  \"1 oz blanc vermouth\"\n  \"¼ oz honey syrup\"\n  \"2 oz sparkling wine\"\n>}}\n\n{{< instructions >}}\nAdd all ingredients except the sparkling wine to a cocktail shaker with plenty of ice. Shake then strain into a wine glass. Top with the sparkling wine. Be disappointed by Mimosas for the rest of your life.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-15T08:17:50-08:00",
+    "basename": "vigo"
+  },
+  "weekday-fizz": {
+    "title": "Weekday Fizz",
+    "date": "2018-02-02T21:36:31.000Z",
+    "tags": [
+      "grapefruit",
+      "mint",
+      "tonic-water",
+      "mocktail",
+      "sidecar-original",
+      "shaken"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nSometimes you want the experience of a good drink, without the alcohol. Unfortunately, a good mocktail is hard to find. I’m particularly proud of this one.\n{{< /summary >}}\n\n\n{{< ingredients\n  \"1 oz grapefruit juice\"\n  \"½ oz simple syrup\"\n  \"2 dashes Peychaud’s bitters\"\n  \"4–6 mint leaves\"\n  \"4 oz tonic water\"\n>}}\n\n\n{{< instructions >}}\nShake everything except tonic water with plenty of ice. [Double-strain](/techniques/straining/#double-straining) into a rocks glass over fresh ice. Top with tonic water.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-02-02T13:36:31-08:00",
+    "basename": "weekday-fizz"
+  },
+  "white-lady": {
+    "title": "White Lady",
+    "date": "2018-01-19T02:43:49.000Z",
+    "tags": [
+      "gin",
+      "orange-liqueur",
+      "egg",
+      "shaken"
+    ],
+    "content": "\n{{< wrap >}}\n{{< summary >}}\nI typically use a London dry gin, but I’ve seen recipes call for Plymouth or an American style.\n{{< /summary >}}\n\n{{< ingredients\n  \"2 oz gin\"\n  \"¾ oz lemon juice\"\n  \"½ oz orange liqueur\"\n  \"¼ oz simple syrup\"\n  \"1 egg white\"\n>}}\n\n\n{{< instructions >}}\n[Dry shake](/techniques/shaking/#dry-shaking); add ice and shake. [Double-strain](/techniques/straining/#double-straining) into a coupe glass.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-01-18T18:43:49-08:00",
+    "basename": "white-lady"
+  },
+  "winter-margarita": {
+    "title": "Winter Margarita",
+    "date": "2018-12-23T01:15:43.000Z",
+    "tags": [
+      "tequila",
+      "mezcal",
+      "lime",
+      "shaken"
+    ],
+    "image": {
+      "url": "/images/drinks/winter-margarita.jpg",
+      "alt": "Two white cocktails with a frothy top in front of a bottle of mezcal and a bottle of tequila",
+      "align": "50% 50%"
+    },
+    "content": "\n{{< wrap >}}\n{{< ingredients\n  \"1 oz tequila reposado\"\n  \"1 oz mezcal\"\n  \"¾ oz lime juice\"\n  \"¾ oz simple syrup\"\n  \"1 egg white\"\n>}}\n\n{{< instructions >}}\n[Dry shake](/techniques/shaking#dry-shaking) ingredients in a shaker (no ice). Add ice and shake until well chilled. [Double strain](/techniques/straining#double-straining) into a coupe glass with a salted rim.\n{{< /instructions >}}\n{{< /wrap >}}\n",
+    "iso8601Date": "2018-12-22T17:15:43-08:00",
+    "basename": "winter-margarita"
   }
 }

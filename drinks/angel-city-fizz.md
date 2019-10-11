@@ -1,10 +1,10 @@
 ---
 title: "Angel City Fizz"
 date: 2019-09-20T12:00:00-08:00
-glass: "collins"
+glass: collins
 sweetness: 2
 booziness: 1
-family: "fizz"
+family: fizz
 ingredients: [
   "1½ oz overproof rye whiskey",
   "¾ oz lime juice",

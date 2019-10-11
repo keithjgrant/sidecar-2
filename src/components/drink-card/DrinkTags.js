@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './DrinkTags.scss';
 
-export default function DrinkTags({ tags }) {
+export default function DrinkTags({ tags = [] }) {
   const showToggle = tags.length > 5;
   const [isExpanded, setIsExpanded] = useState(!showToggle);
   const shownTags = isExpanded ? tags : tags.slice(0, 4);

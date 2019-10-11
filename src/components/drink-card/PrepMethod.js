@@ -13,14 +13,10 @@ function getMethod(tags) {
   return '';
 }
 
-export default function PrepMethod({ tags }) {
+export default function PrepMethod({ tags = [] }) {
   const method = getMethod(tags);
   if (!method) {
     return null;
   }
-  return (
-    <div className="metadata-label">
-      {method}
-    </div>
-  );
+  return <div className="metadata-label">{method}</div>;
 }

@@ -6,9 +6,9 @@ sweetness: 2
 booziness: 3
 family: "martini"
 ingredients: [
-  "1 oz London dry gin",
+  "1 oz London dry gin — _Tanqueray_",
   "1 oz Campari",
-  "1 oz sweet vermouth",
+  "1 oz sweet vermouth — _Cocchi di Torino_",
   "grapefruit (or orange) twist garnish",
 ]
 tags: [
@@ -18,7 +18,7 @@ tags: [
   "stirred",
   "aperitif",
 ]
-intro: The Negroni is quite sweet, but also bitter and complex. I make mine with Tanquery gin and Cocchi di Torino vermouth.
+intro: The Negroni is quite sweet, but also bitter and complex. A bold, juniper-heavy gin like Tanqueray stands up to the strong flavors of Campari.
 ---
 Stir with plenty of ice. Strain into a coupe glass. It can also be served over ice in a rocks glass.
 

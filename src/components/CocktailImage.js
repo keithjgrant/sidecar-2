@@ -1,7 +1,7 @@
 import glasses from './svg/glasses';
 
 const GENERIC_IMAGE = {
-  url: '/bartender.jpg',
+  url: '/images/bartender.jpg',
   alt: 'A well-dressed bartender pouring a spirit into a cocktail shaker',
 };
 
