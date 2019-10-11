@@ -76,8 +76,7 @@ $fill-height: calc(100vh - 70px);
   --border-radius: 0.3em;
 
   --font-heading: Playfair Display, serif;
-  --font-byd: Lato, sans-serif;
-
+  --font-body: Lato, sans-serif;
 
   /* stylelint-disable unit-whitelist */
   --fill-height: calc(100vh - 70px);
@@ -85,4 +84,6 @@ $fill-height: calc(100vh - 70px);
 
   --card-bg: var(--gray-dark);
   --card-border: rgba(255, 255, 255, 0.1);
+
+  --gap-size: 0.6rem;
 }

@@ -1,24 +1,40 @@
-import {useContext} from 'react';
-import Link from 'next/link';
-import {withRouter} from 'next/router';
-import Markdown from 'react-markdown';
-import Context from '../src/AppContext';
+import React from 'react';
+import { withRouter } from 'next/router';
 import '../src/styles.scss';
-// import shaking from '../content/techniques/shaking.md';
+import TechniquesIndex from '../src/TechniquesIndex';
+import Building from '../content/techniques/building.md';
+import Shaking from '../content/techniques/shaking.md';
+import Stirring from '../content/techniques/stirring.md';
+import Straining from '../content/techniques/straining.md';
+import Twist from '../content/techniques/twist.md';
+import Sour from '../content/techniques/sour.md';
+
+const contentComponents = {
+  building: Building,
+  shaking: Shaking,
+  stirring: Stirring,
+  straining: Straining,
+  twist: Twist,
+  sour: Sour,
+};
 
 export default withRouter(({ router }) => {
-  const store = useContext(Context);
   const technique = router.query.technique;
+  const Content = contentComponents[technique];
 
-  if (!technique) {
-    return (
-      <div>
-        <h1>Techniques</h1>
-      </div>
-    );
+  if (!technique || !Content) {
+    return <TechniquesIndex />;
   }
 
+
   return (
-    <Markdown source="../content/techniques/shaking.md" />
+    <main className="main-wrapper">
+      <article className="fullpage-article">
+        <Content />
+      </article>
+    </main>
   );
 });
+
+const contents = Object.keys(contentComponents);
+export { contents };

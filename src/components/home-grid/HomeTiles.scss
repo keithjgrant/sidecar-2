@@ -1,5 +1,4 @@
 .home-tiles {
-  --gap-size: 0.6em;
   padding: 1em 1em calc(1em - var(--gap-size));
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 2fr;

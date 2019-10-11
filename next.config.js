@@ -1,10 +1,10 @@
-const drinks = require('./static/data/drinks.json');
 const withSass = require('@zeit/next-sass');
 const exec = require('child_process').exec;
 const withMDX = require('@next/mdx')({
   extension: /\.(md|mdx)$/,
 });
 // const WebpackShellPlugin = require('webpack-shell-plugin');
+const drinks = require('./static/data/drinks.json');
 
 const tags = new Set();
 Object.keys(drinks).forEach(d => {
@@ -12,47 +12,67 @@ Object.keys(drinks).forEach(d => {
 });
 
 const techniques = [
+  'building',
   'shaking',
-]
+  'stirring',
+  'straining',
+  'twist',
+  'sour',
+];
+const ingredients = [
+  'vermouth',
+  'gin',
+  'simple-syrup',
+  'butter-syrup',
+  'burnt-sugar-syrup',
+];
 
-module.exports = withMDX(withSass({
-  exportPathMap: async function(defaultPathMap) {
-    Object.keys(drinks).forEach(basename => {
-      defaultPathMap[`/drinks/${basename}`] = {
-        page: '/drinks',
-        query: {d: basename},
-      };
-    });
-    tags.forEach(tag => {
-      defaultPathMap[`/tags/${tag}`] = {
-        page: '/tags',
-        query: {tag: tag},
-      }
-    });
-    techniques.forEach(t => {
-      defaultPathMap[`/techniques/${t}`] = {
-        page: '/techniques',
-        query: {technique: t}
-      }
-    })
+module.exports = withMDX(
+  withSass({
+    exportPathMap: async function(defaultPathMap) {
+      Object.keys(drinks).forEach(basename => {
+        defaultPathMap[`/drinks/${basename}`] = {
+          page: '/drinks',
+          query: { d: basename },
+        };
+      });
+      tags.forEach(tag => {
+        defaultPathMap[`/tags/${tag}`] = {
+          page: '/tags',
+          query: { tag: tag },
+        };
+      });
+      techniques.forEach(t => {
+        defaultPathMap[`/techniques/${t}`] = {
+          page: '/techniques',
+          query: { technique: t },
+        };
+      });
+      ingredients.forEach(t => {
+        defaultPathMap[`/ingredients/${t}`] = {
+          page: '/ingredients',
+          query: { ingredient: t },
+        };
+      });
 
-    return defaultPathMap;
-  },
-  webpack: config => {
-    if (!config.plugins) {
-      config.plugins = [];
-    }
-    config.plugins.push({
-      apply: compiler => {
-        compiler.hooks.watchRun.tap('BuildDataFile', () => {
-          exec('npm run data', (err, stdout, stderr) => {
-            if (stdout) process.stdout.write(stdout);
-            if (stderr) process.stderr.write(stderr);
+      return defaultPathMap;
+    },
+    webpack: config => {
+      if (!config.plugins) {
+        config.plugins = [];
+      }
+      config.plugins.push({
+        apply: compiler => {
+          compiler.hooks.watchRun.tap('BuildDataFile', () => {
+            exec('npm run data', (err, stdout, stderr) => {
+              if (stdout) process.stdout.write(stdout);
+              if (stderr) process.stderr.write(stderr);
+            });
           });
-        });
-      },
-    });
+        },
+      });
 
-    return config;
-  },
-}));
+      return config;
+    },
+  })
+);

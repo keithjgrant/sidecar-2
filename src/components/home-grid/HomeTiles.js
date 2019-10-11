@@ -30,7 +30,7 @@ export default function HomeTiles() {
         <a className="home-tile">Tags</a>
       </Link>
       <Link href="/about">
-        <a className="home-tile home-tile--about">About</a>
+        <a className="home-tile home-tile--about">About Sidecar</a>
       </Link>
       <TileRow drinks={featured} heading="Featured" />
       <TileRow drinks={latest} heading="Recently added" />

@@ -35,11 +35,23 @@ digestif
 SVG:
 https://www.flaticon.com/search?word=cocktail&style_id=13
 
-Saving favorites
-
 
 TODO:
 * self-host fonts
-* static content solution (ingedient, techniques, about pages)
 * import content
 * file organization
+* footer
+* favorites
+* Explore screen & search
+* finish re-working Gin page
+
+
+Ingredients:
+ * Spirits (gin, vermouth)
+ * Syrups
+ * Other mixers (orgeat ?)
+ * A 12-bottle bar
+
+Techniques
+ * Essentials
+ * Drink types (Sour)
