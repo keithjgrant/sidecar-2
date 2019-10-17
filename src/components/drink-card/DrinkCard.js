@@ -35,9 +35,11 @@ export default function DrinkCard({ drink }) {
             <Markdown source={drink.content} />
           </div>
           <div className="text-right publish-date">
-            <time className="dt-published">
-              Published {formatDate(drink.date)}
-            </time>
+            {drink.date ? (
+              <time className="dt-published">
+                Published {formatDate(drink.date)}
+              </time>
+            ) : null}
           </div>
         </div>
       </div>

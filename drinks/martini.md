@@ -1,34 +1,28 @@
 ---
 title: "Martini"
 date: 2018-01-13T11:30:58-05:00
+glass: martini
+sweetness: 1
+booziness: 3
+family: martini
+ingredients: [
+  "2¼ oz gin",
+  "¾ oz dry vermouth",
+  "1 dash orange bitters"
+]
+garnish: lemon twist
 tags: [
   "gin",
   "dry-vermouth",
   "classic-cocktail",
   "stirred"
 ]
-
 image:
   url: "/images/drinks/martini.jpg"
   alt: ""
   align: "0% 50%"
-note: Death & co. does 3:1 w/ orange bitters; orange bitters better w/ juniper forward gins
+intro: Everyone has an opinion about martinis, and, I’ll be honest, mine is always changing. So here’s a great starting point. You might want to omit the bitters if you're not using a juniper-forward gin.
 ---
-{{< wrap >}}
-{{< summary >}}
-Everyone has an opinion about martinis. I’ll spare you mine, and just give you my recipe.
-
-Just about any [type of gin](/ingredients/gin/) works in a martini (but if you have Aviation available, give my [Pilot’s License](/drinks/pilots-license) variation a try).
-{{< /summary >}}
-
-{{< ingredients
-"2 oz of your favorite gin"
-"½ oz dry vermouth"
->}}
-
-{{< instructions >}}
 Add to cocktail shaker with plenty of ice. Stir well, then strain into a martini glass.
 
 Garnish with a lemon twist.
-{{< /instructions >}}
-{{< /wrap >}}

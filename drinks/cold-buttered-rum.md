@@ -1,7 +1,7 @@
 ---
 title: "Cold Buttered Rum"
 date: 2018-12-13T08:55:40-05:00
-glass: mug
+glass: rocks
 sweetness: 3
 booziness: 2
 family: sour

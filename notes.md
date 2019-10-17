@@ -38,12 +38,11 @@ https://www.flaticon.com/search?word=cocktail&style_id=13
 
 TODO:
 * self-host fonts
-* import content
-* file organization
 * footer
 * favorites
 * Explore screen & search
 * finish re-working Gin page
+* mug SVG
 
 
 Ingredients:
@@ -55,3 +54,7 @@ Ingredients:
 Techniques
  * Essentials
  * Drink types (Sour)
+
+Drinks to double-check:
+ * Sidecar
+ * White lady

@@ -1,7 +1,7 @@
 ---
 title: "Old Fashioned"
 date: 2018-12-10T12:24:35-05:00
-glass: "rocks"
+glass: rocks
 sweetness: 2
 booziness: 3
 family: "old fashioned"

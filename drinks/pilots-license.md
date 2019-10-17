@@ -1,10 +1,10 @@
 ---
 title: "Pilot’s License"
 date: 2018-12-10T12:24:35-05:00
-style: "martini"
-glass: "martini"
+glass: martini
 sweetness: 2
 booziness: 3
+family: martini
 featured: true
 ingredients: [
   "2¼ oz Aviation gin",

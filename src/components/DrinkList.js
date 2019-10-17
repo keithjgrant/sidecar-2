@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import Link from 'next/link';
 import CocktailImage from './CocktailImage';
 
@@ -18,11 +19,24 @@ function DrinkItem({ drink }) {
   );
 }
 
+function alphaSort(a, b) {
+  const titleA = a.title.toLowerCase();
+  const titleB = b.title.toLowerCase();
+  if (titleA < titleB) {
+    return -1;
+  }
+  if (titleA > titleB) {
+    return 1;
+  }
+  return 0;
+}
+
 export default function DrinkList({ drinks }) {
   // TODO: sort alphabetically/date-added switch (and other options?)
+  const [sortedDrinks] = useState(drinks.sort(alphaSort));
   return (
     <ul className="drink-list">
-      {drinks.map(d => (
+      {sortedDrinks.map(d => (
         <DrinkItem key={d.basename} drink={d} />
       ))}
     </ul>
