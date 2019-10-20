@@ -16,13 +16,15 @@ ingredients: [
 ]
 garnish: lemon zest
 tags: [
-  "dessert",
-  "sweet",
-  "rum",
-  "aged-rum",
-  "lemon",
-  "egg",
-  "butter-syrup",
+  sidecar-original,
+  dessert,
+  sweet,
+  rum,
+  aged-rum,
+  lemon,
+  egg,
+  butter-syrup,
+  shaken,
 ]
 featured: true
 image:

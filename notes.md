@@ -58,3 +58,4 @@ Techniques
 Drinks to double-check:
  * Sidecar
  * White lady
+ * Lemon bomb - line up with Flip in Codex?

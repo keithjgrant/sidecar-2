@@ -15,13 +15,16 @@ ingredients: [
 garnish: lemon twist, discarded
 tags: [
   classic-cocktail,
+  anise,
   rye-whiskey,
   absinthe,
   stirred,
 ]
+
 ---
+
 Chill a rocks glass in the freezer.
 
 Pour a splash of absinthe into the glass; swirl it around to coat the inside of the glass, then pour it out.
 
-Stir remaining liquids with plenty of ice. Strain into the rocks glass (with no ice). Express oils from lemon twist into the drink, then [discard the peel](/techniques/twist/#discarding).
+Stir remaining ingredients with plenty of ice. Strain into the rocks glass (with no ice). Express oils from lemon twist into the drink, then [discard the peel](/techniques/twist/#discarding).
