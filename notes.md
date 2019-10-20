@@ -43,6 +43,7 @@ TODO:
 * Explore screen & search
 * finish re-working Gin page
 * mug SVG
+* IPA Syrup
 
 
 Ingredients:
