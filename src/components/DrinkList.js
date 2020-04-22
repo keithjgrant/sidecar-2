@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import CocktailImage from './CocktailImage';
 
@@ -33,7 +33,7 @@ function alphaSort(a, b) {
 
 export default function DrinkList({ drinks }) {
   // TODO: sort alphabetically/date-added switch (and other options?)
-  const [sortedDrinks] = useState(drinks.sort(alphaSort));
+  const sortedDrinks = drinks.sort(alphaSort);
   return (
     <ul className="drink-list">
       {sortedDrinks.map(d => (

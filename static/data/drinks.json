@@ -264,7 +264,7 @@
   },
   "churchills-breakfast": {
     "title": "Churchill’s Breakfast",
-    "date": "2019-09-20T20:00:00.000Z",
+    "date": "2019-10-20T20:00:00.000Z",
     "glass": "snifter",
     "sweetness": 2,
     "booziness": 2,
@@ -284,9 +284,8 @@
       "maple-syrup",
       "shaken"
     ],
-    "featured": null,
-    "content": "\n\nIgnite the end of the cinnamon stick with a torch or gas burner. Invert a coupe or brandy snifter over the burning end so the smoke rises into the glass and coats it.\n\nCombine ingredients in a cocktail shaker with plenty of ice. Shake vigorously. Strain into the smoke-coated glass.\n\nGarnish with the burnt cinnamon stick.\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "content": "\n\nIgnite the end of the cinnamon stick with a butane torch or gas burner. Invert a coupe or brandy snifter over the burning end so the smoke rises into the glass and coats it.\n\nCombine ingredients in a cocktail shaker with plenty of ice. Shake vigorously. Strain into the smoke-coated glass.\n\nGarnish with the burnt cinnamon stick.\n",
+    "iso8601Date": "2019-10-20T13:00:00-07:00",
     "basename": "churchills-breakfast"
   },
   "cold-buttered-rum": {
@@ -316,7 +315,7 @@
   },
   "cooper-union": {
     "title": "Cooper Union",
-    "date": "2019-09-20T20:00:00.000Z",
+    "date": "2019-10-20T20:00:00.000Z",
     "glass": "rocks",
     "sweetness": 3,
     "booziness": 3,
@@ -339,7 +338,7 @@
     "featured": null,
     "intro": "This is a fun variant of the [Sazarac](/drinks/sazarac).",
     "content": "\n\nChill a rocks glass in the freezer.\n\nPour a splash of scotch into the glass; swirl it around to coat the inside of the glass, then pour it out.\n\nStir remaining ingredients with plenty of ice. Strain into the rocks glass (with no ice). Express oils from lemon twist into the drink, then [discard the peel](/techniques/twist/#discarding).\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "iso8601Date": "2019-10-20T13:00:00-07:00",
     "basename": "cooper-union"
   },
   "daiquiri": {
@@ -388,7 +387,7 @@
   },
   "death-in-oaxaca": {
     "title": "Death in Oaxaca",
-    "date": "2019-09-20T20:00:00.000Z",
+    "date": "2019-10-20T20:00:00.000Z",
     "glass": "flute",
     "sweetness": 2,
     "booziness": 2,
@@ -409,7 +408,7 @@
     ],
     "featured": null,
     "content": "\n\nAdd mezcal, Green Chartreuse, lime juice, and agave to cocktail shaker with plenty of ice. Shake vigorously. Strain into a Champagne flute.\n\nTop with about 3 oz sparkling wine. Garnish with a lime twist.\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "iso8601Date": "2019-10-20T13:00:00-07:00",
     "basename": "death-in-oaxaca"
   },
   "egg-sour": {
@@ -506,24 +505,36 @@
     "basename": "elder-fashioned"
   },
   "employees-only-martinez": {
-    "title": "Employees Only Martinez",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
+    "title": "Employee’s Only Martinez",
+    "date": "2019-10-21T23:10:41.000Z",
+    "glass": "coupe",
+    "sweetness": 2,
+    "booziness": 3,
+    "family": "martini",
+    "ingredients": [
+      "2½ oz London dry gin",
+      "¾ oz blanc vermouth",
+      "½ Maraschino liqueur",
+      "¼ oz [absinthe bitters](/ingredients/absinthe-bitters)"
+    ],
+    "garnish": "lemon twist",
+    "tags": [
+      "london-dry-gin",
+      "gin",
+      "blanc-vermouth",
+      "dry-vermouth",
+      "maraschino",
+      "absinthe-bitters"
+    ],
     "featured": null,
     "image": {
       "url": "/images/drinks/.jpg",
       "alt": "",
       "align": "50% 50%"
     },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "intro": "Created by _Employees Only_ bar in New York.\n\nDue to a happy accident, I discovered it also tastes great with dry vermouth substituted for the blanc vermouth, though I guess technically that would make it a Martini rather than a Martinez.\n",
+    "content": "\n\nStir ingredients with plenty of ice. Stir. Strain into a coupe.\n\nGarnish with a lemon twist.\n",
+    "iso8601Date": "2019-10-21T16:10:41-07:00",
     "basename": "employees-only-martinez"
   },
   "french-kiss": {
@@ -617,7 +628,7 @@
   },
   "hipster-margarita": {
     "title": "Hipster Margarita",
-    "date": "2019-09-20T20:00:00.000Z",
+    "date": "2019-10-20T20:00:00.000Z",
     "glass": "coupe",
     "sweetness": 2,
     "booziness": 2,
@@ -633,29 +644,34 @@
       "lime",
       "shaken"
     ],
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "content": "\n\nShake vigorously with plenty of ice. Strain into coupe.\n",
+    "iso8601Date": "2019-10-20T13:00:00-07:00",
     "basename": "hipster-margarita"
   },
   "hot-toddy": {
     "title": "Hot Toddy",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
+    "date": "2019-10-20T23:10:26.000Z",
+    "glass": "mug",
+    "sweetness": 2,
+    "booziness": 1,
+    "family": "highball",
+    "ingredients": [
+      "2 oz bourbon",
+      "½ oz simple syrup",
+      "2 dashes Angostura bitters",
+      "4 oz hot water"
+    ],
+    "garnish": "lemon twist",
+    "tags": [
+      "winter",
+      "hot",
+      "bourbon",
+      "whiskey"
+    ],
     "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
     "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "content": "\n\nCombine ingredients in a glass mug and top with about 4 oz hot water. Garnish with a lemon twist.\n",
+    "iso8601Date": "2019-10-20T16:10:26-07:00",
     "basename": "hot-toddy"
   },
   "indian-winter": {
@@ -723,48 +739,6 @@
     "iso8601Date": "2018-01-16T08:54:50-08:00",
     "basename": "irish-coffee"
   },
-  "kentucky-mule": {
-    "title": "Kentucky Mule",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "kentucky-mule"
-  },
-  "left-hand": {
-    "title": "Left Hand",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "left-hand"
-  },
   "lemon-bomb": {
     "title": "Lemon Bomb",
     "date": "2018-12-10T17:47:26.000Z",
@@ -830,23 +804,30 @@
   },
   "man-about-town": {
     "title": "Man About Town",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "date": "2019-10-20T23:10:13.000Z",
+    "glass": "coupe",
+    "sweetness": 2,
+    "booziness": 2,
+    "family": "sidecar",
+    "ingredients": [
+      "1½ oz rye whiskey",
+      "½ oz Campari",
+      "½ oz [IPA Syrup](/ingredients/ipa-syrup)",
+      "½ oz lime juice"
+    ],
+    "garnish": "lime wedge",
+    "tags": [
+      "rye-whiskey",
+      "whiskey",
+      "campari",
+      "ipa-syrup",
+      "lime",
+      "shaken"
+    ],
+    "featured": true,
+    "intro": "This is one of the most unique, complexly-flavored drinks I’ve had. Bourbon can be substituted for the Rye.",
+    "content": "\n\nShake vigorously with plenty of ice. Strain into coupe.\n",
+    "iso8601Date": "2019-10-20T16:10:13-07:00",
     "basename": "man-about-town"
   },
   "manhattan": {
@@ -1046,27 +1027,6 @@
     "iso8601Date": "2018-01-27T12:05:41-08:00",
     "basename": "monkey-grass"
   },
-  "muscovado-margarita": {
-    "title": "Muscovado Margarita",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "muscovado-margarita"
-  },
   "negroni-sbagliato": {
     "title": "Negroni Sbagliato",
     "date": "2018-01-18T02:34:20.000Z",
@@ -1120,89 +1080,35 @@
     "iso8601Date": "2018-12-10T09:24:35-08:00",
     "basename": "negroni"
   },
-  "neptune-s-wrath": {
-    "title": "Neptune's Wrath",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
+  "neptunes-wrath": {
+    "title": "Neptune’s Wrath",
+    "date": "2019-10-21T23:10:21.000Z",
+    "glass": "coupe",
+    "sweetness": 2,
+    "booziness": 2,
+    "family": "sidecar",
+    "ingredients": [
+      "1½ oz Plymouth gin (or a London dry gin)",
+      "¼ oz absinthe",
+      "¾ oz lemon juice",
+      "¾ oz simple syrup",
+      "1 egg white",
+      "¼ oz Green Chartreuse"
+    ],
+    "tags": [
+      "plymouth-gin",
+      "london-dry-gin",
+      "gin",
+      "absinthe",
+      "lemon",
+      "egg",
+      "green-chartreuse"
+    ],
     "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "neptune-s-wrath"
-  },
-  "new-york-sour": {
-    "title": "New York Sour",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "new-york-sour"
-  },
-  "no-true-scotsman": {
-    "title": "No True Scotsman",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "no-true-scotsman"
-  },
-  "nouveau-sangaree": {
-    "title": "Nouveau Sangaree",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "nouveau-sangaree"
+    "intro": "Lighting alcohol on fire can be dangerous. Do it over a bar mat or sink so a spill doesn’t spread and have a fire extinguisher nearby.",
+    "content": "\n\nAdd all ingredients except green chartreuse to a shaker. [Dry shake](techniques/shaking#dry-shaking). Add plenty of ice and shake vigorously. Strain into a large coupe or Nick & Nora glass.\n\nIn your jigger, measure ¼ Green Chartreuse. Light the alcohol on fire and wait a few moments. Then, being extremely careful not to spill, pour it into the cocktail.\n",
+    "iso8601Date": "2019-10-21T16:10:21-07:00",
+    "basename": "neptunes-wrath"
   },
   "old-fashioned": {
     "title": "Old Fashioned",
@@ -1232,23 +1138,25 @@
   },
   "paloma": {
     "title": "Paloma",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "date": "2019-10-20T23:10:56.000Z",
+    "glass": "collins",
+    "sweetness": 3,
+    "booziness": 1,
+    "family": "highball",
+    "ingredients": [
+      "2 oz tequila",
+      "½ oz lime juice",
+      "¾ oz grapefruit syrup",
+      "3 oz soda water"
+    ],
+    "garnish": "grapfruit wheel",
+    "tags": [
+      "tequila",
+      "grapefruit",
+      "built"
+    ],
+    "content": "\n\nBuild in a collins glass over ice. Garnish with a grapefruit wheel.\n",
+    "iso8601Date": "2019-10-20T16:10:56-07:00",
     "basename": "paloma"
   },
   "pilots-license": {
@@ -1337,44 +1245,53 @@
   },
   "ritz-bijou": {
     "title": "Ritz Bijou",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
+    "date": "2019-10-21T23:10:24.000Z",
+    "glass": "coupe",
+    "sweetness": 2,
+    "booziness": 3,
+    "family": "martini",
+    "ingredients": [
+      "2 oz London dry gin",
+      "1 oz dry vermouth",
+      "½ oz orange liqueur",
+      "3 dashes rosemary bitters"
+    ],
+    "garnish": "rosemary sprig",
+    "tags": [
+      "gin",
+      "london-dry-gin",
+      "dry-vermouth",
+      "orange-liqueur",
+      "rosemary"
+    ],
     "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "intro": "This is a much drier adaptation on the [Bijou](/drinks/bijou).",
+    "content": "\n\nStir with plenty of ice. Strain into a coupe. Garnish with a sprig of rosemary.\n",
+    "iso8601Date": "2019-10-21T16:10:24-07:00",
     "basename": "ritz-bijou"
   },
   "rusty-nail": {
     "title": "Rusty Nail",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
+    "date": "2019-10-20T23:10:32.000Z",
+    "glass": "rocks",
+    "sweetness": 2,
+    "booziness": 2,
+    "family": "old fashioned",
+    "ingredients": [
+      "1½ oz Scotch",
+      "¾ oz Drambuie"
+    ],
     "garnish": null,
-    "tags": [],
+    "tags": [
+      "whiskey",
+      "scotch",
+      "drambuie",
+      "built"
+    ],
     "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
+    "intro": "I like this best with a good peaty Scotch.",
+    "content": "\n\nBuild in a rocks glass over ice. Stir briefly and serve.\n",
+    "iso8601Date": "2019-10-20T16:10:32-07:00",
     "basename": "rusty-nail"
   },
   "sazerac": {
@@ -1480,27 +1397,6 @@
     "content": "\n**Cold**: Shake all ingredients in a cocktail shaker with ice. Strain into a rocks glass over fresh ice.\n\n**Hot**: Put the rum, syrup, and vanilla in a metal shaker and heat it gently by placing the shaker in a bowl of hot water. Preheat a small mug with hot water. Meanwhile, heat the milk and froth it with a mixer or milk frother. Empty the mug and add the rum mixture; pour the hot milk into the rum and stir gently to combine.\n\nGarnish with ground nutmeg and cinnamon.\n",
     "iso8601Date": "2018-12-10T09:40:11-08:00",
     "basename": "spiced-rum-milk-punch"
-  },
-  "star-cocktail": {
-    "title": "Star Cocktail",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "star-cocktail"
   },
   "tabs-vs-spaces": {
     "title": "Tabs vs. Spaces",
@@ -1615,48 +1511,6 @@
     "content": "\n\nStir all ingredients (apart from twists) in an ice-filled shaker glass. Strain into an old fashioned glass over fresh ice. Add the orange and lemon twists.\n",
     "iso8601Date": "2018-12-10T10:22:55-08:00",
     "basename": "the-conference"
-  },
-  "tropical-ginger-snap": {
-    "title": "Tropical Ginger Snap",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "tropical-ginger-snap"
-  },
-  "vermouth-cocktail": {
-    "title": "Vermouth Cocktail",
-    "date": "2019-09-20T20:00:00.000Z",
-    "glass": null,
-    "sweetness": null,
-    "booziness": null,
-    "family": null,
-    "ingredients": [],
-    "garnish": null,
-    "tags": [],
-    "featured": null,
-    "image": {
-      "url": "/images/drinks/.jpg",
-      "alt": "",
-      "align": "50% 50%"
-    },
-    "intro": null,
-    "content": "\n\n1/4: ¼\n1/2: ½\n3/4: ¾\n",
-    "iso8601Date": "2019-09-20T13:00:00-07:00",
-    "basename": "vermouth-cocktail"
   },
   "vigo": {
     "title": "Vigo",

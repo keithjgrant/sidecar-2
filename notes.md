@@ -44,6 +44,7 @@ TODO:
 * finish re-working Gin page
 * mug SVG
 * IPA Syrup
+* absinthe bitters
 
 
 Ingredients:

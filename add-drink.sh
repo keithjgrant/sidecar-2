@@ -2,7 +2,6 @@
 
 NAME=$1
 SLUG=$(echo $NAME | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
-# SLUG=$(echo $NAME | tr -s '-' | tr A-Z a-z | sed -e 's/[^a-z-]//g')
 DATE=$(date "+%Y-%m-%dT%H:%m:%S-08:00")
 FILE="drinks/${SLUG}.md"
 
