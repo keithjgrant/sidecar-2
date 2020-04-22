@@ -19,7 +19,7 @@
     "@mdx-js/loader": "^1.5.1",
     "@next/mdx": "^9.1.1",
     "@zeit/next-sass": "^1.0.1",
-    "next": "^7.0.2",
+    "next": "^8.1.0",
     "node-sass": "^4.12.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
