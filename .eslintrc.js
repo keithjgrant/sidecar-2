@@ -35,5 +35,6 @@ module.exports = {
     require: true,
     module: true,
     Set: true,
+    console: true,
   },
 };

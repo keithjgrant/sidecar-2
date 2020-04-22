@@ -1,6 +1,6 @@
 # Burnt Sugar Syrup
 
-I love burnt sugar syrup. It’s complex flavor does really well in many cocktails. It also works well in coffee and lattes. It’s less sweet than regular simple syrup, so I use a little more of this when swapping them out.
+I love burnt sugar syrup. Its complex flavor does really well in many cocktails. It also works well in coffee and lattes. It’s less sweet than regular simple syrup, so I use a little more of this when swapping them out.
 
 <div class="aside">I use equal parts of water and sugar, by weight. I realize now that this is unconventional, as most recipes call for less water. I need to try that and adjust my recipes accordingly.</div>
 

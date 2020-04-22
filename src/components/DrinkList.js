@@ -7,8 +7,8 @@ function DrinkItem({ drink }) {
     <li>
       <Link
         key={drink.basename}
+        href={`/drinks/[drink]`}
         as={`/drinks/${drink.basename}`}
-        href={`/drinks?d=${drink.basename}`}
       >
         <a className="drink-preview">
           <CocktailImage drink={drink} className="drink-thumbnail" />

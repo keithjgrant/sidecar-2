@@ -3,7 +3,7 @@ import Context from '../src/AppContext';
 import TagsList from '../src/components/TagsList';
 import DrinkList from '../src/components/DrinkList';
 
-export default () => {
+export default function Tags() {
   const store = useContext(Context);
   const tag = store.getCurrentTag();
 
@@ -22,4 +22,4 @@ export default () => {
       <DrinkList drinks={drinks} />
     </div>
   );
-};
+}

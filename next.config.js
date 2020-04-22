@@ -32,34 +32,36 @@ const ingredients = [
 
 module.exports = withMDX(
   withSass({
-    exportPathMap: async function(defaultPathMap) {
-      Object.keys(drinks).forEach(basename => {
-        defaultPathMap[`/drinks/${basename}`] = {
-          page: '/drinks',
-          query: { d: basename },
-        };
-      });
-      tags.forEach(tag => {
-        defaultPathMap[`/tags/${tag}`] = {
-          page: '/tags',
-          query: { tag: tag },
-        };
-      });
-      techniques.forEach(t => {
-        defaultPathMap[`/techniques/${t}`] = {
-          page: '/techniques',
-          query: { technique: t },
-        };
-      });
-      ingredients.forEach(t => {
-        defaultPathMap[`/ingredients/${t}`] = {
-          page: '/ingredients',
-          query: { ingredient: t },
-        };
-      });
-
-      return defaultPathMap;
-    },
+    // exportPathMap: async function(defaultPathMap) {
+    //   const newMap = { ...defaultPathMap };
+    //   Object.keys(drinks).forEach(basename => {
+    //     newMap[`/drinks/${basename}`] = {
+    //       page: '/drinks',
+    //       query: { d: basename },
+    //     };
+    //   });
+    //   // tags.forEach(tag => {
+    //   //   defaultPathMap[`/tags/${tag}`] = {
+    //   //     page: '/tags',
+    //   //     query: { tag: tag },
+    //   //   };
+    //   // });
+    //   // techniques.forEach(t => {
+    //   //   defaultPathMap[`/techniques/${t}`] = {
+    //   //     page: '/techniques',
+    //   //     query: { technique: t },
+    //   //   };
+    //   // });
+    //   // ingredients.forEach(t => {
+    //   //   defaultPathMap[`/ingredients/${t}`] = {
+    //   //     page: '/ingredients',
+    //   //     query: { ingredient: t },
+    //   //   };
+    //   // });
+    //
+    //   console.log(newMap);
+    //   return newMap;
+    // },
     webpack: config => {
       if (!config.plugins) {
         config.plugins = [];
@@ -77,5 +79,6 @@ module.exports = withMDX(
 
       return config;
     },
+    exportTrailingSlash: true,
   })
 );

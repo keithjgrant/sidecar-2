@@ -1,10 +1,10 @@
 import React from 'react';
-import App, {Container} from 'next/app';
-import {withRouter} from 'next/router';
+import App from 'next/app';
+import { withRouter } from 'next/router';
 import Context from '../src/AppContext';
 import Meta from '../src/components/Meta';
 import PageLayout from '../src/components/PageLayout';
-// import initialDrinks from '../static/data/drinks.json';
+import initialDrinks from '../static/data/drinks.json';
 import '../src/styles.scss';
 
 class MyApp extends App {
@@ -25,17 +25,15 @@ class MyApp extends App {
   }
 
   render() {
-    const {Component, pageProps, router} = this.props;
+    const { Component, pageProps, router } = this.props;
 
     return (
-      <Container>
-        <Context.Provider value={this.state}>
-          <Meta />
-          <PageLayout route={router.route}>
-            <Component {...pageProps} />
-          </PageLayout>
-        </Context.Provider>
-      </Container>
+      <Context.Provider value={this.state}>
+        <Meta />
+        <PageLayout route={router.route}>
+          <Component {...pageProps} />
+        </PageLayout>
+      </Context.Provider>
     );
   }
 
@@ -43,11 +41,11 @@ class MyApp extends App {
     const response = await fetch('/static/data/drinks.json');
     const data = await response.json();
     const drinks = Object.keys(data).map(key => data[key]);
-    this.setState({drinks});
+    this.setState({ drinks });
   }
 
   getCurrentDrink = () => {
-    const {router} = this.props;
+    const { router } = this.props;
     if (router.route === '/drinks' && router.query.d) {
       return this.state.drinks.find(d => d.basename === router.query.d);
     }
@@ -57,19 +55,18 @@ class MyApp extends App {
   getTags = () => {
     const tags = {};
     this.state.drinks.forEach(drink => {
-      drink.tags.forEach(t => tags[t] = true);
+      drink.tags.forEach(t => (tags[t] = true));
     });
     return Object.keys(tags).sort();
-  }
+  };
 
   getCurrentTag = () => {
-    const {router} = this.props;
+    const { router } = this.props;
     if (router.route === '/tags') {
       return router.query.tag;
     }
     return null;
   };
-
 }
 
 export default withRouter(MyApp);

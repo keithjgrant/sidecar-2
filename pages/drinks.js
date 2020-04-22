@@ -6,6 +6,7 @@ import DrinkList from '../src/components/DrinkList';
 export default function Drinks() {
   const store = useContext(Context);
   const currentDrink = store.getCurrentDrink();
+  // console.log(params);
 
   return currentDrink ? (
     <div className="centered-wrapper">
@@ -18,3 +19,13 @@ export default function Drinks() {
     </div>
   );
 }
+
+// export async function getStaticProps(context) {
+//   console.log('params: ', context.params);
+//   return {
+//     props: {
+//       foo: 'oh my',
+//       // params: context.params
+//     },
+//   };
+// }
