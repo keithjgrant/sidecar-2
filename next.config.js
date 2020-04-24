@@ -14,21 +14,21 @@ Object.keys(drinks).forEach(d => {
   drinks[d].tags.forEach(t => tags.add(t));
 });
 
-const techniques = [
-  'building',
-  'shaking',
-  'stirring',
-  'straining',
-  'twist',
-  'sour',
-];
-const ingredients = [
-  'vermouth',
-  'gin',
-  'simple-syrup',
-  'butter-syrup',
-  'burnt-sugar-syrup',
-];
+// const techniques = [
+//   'building',
+//   'shaking',
+//   'stirring',
+//   'straining',
+//   'twist',
+//   'sour',
+// ];
+// const ingredients = [
+//   'vermouth',
+//   'gin',
+//   'simple-syrup',
+//   'butter-syrup',
+//   'burnt-sugar-syrup',
+// ];
 
 module.exports = withMDX(
   withSass({
@@ -36,8 +36,8 @@ module.exports = withMDX(
     //   const newMap = { ...defaultPathMap };
     //   Object.keys(drinks).forEach(basename => {
     //     newMap[`/drinks/${basename}`] = {
-    //       page: '/drinks',
-    //       query: { d: basename },
+    //       page: `/drinks/${basename}`,
+    //       query: { drink: basename },
     //     };
     //   });
     //   // tags.forEach(tag => {
@@ -59,7 +59,6 @@ module.exports = withMDX(
     //   //   };
     //   // });
     //
-    //   console.log(newMap);
     //   return newMap;
     // },
     webpack: config => {

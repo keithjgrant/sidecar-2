@@ -12,8 +12,7 @@ class MyApp extends App {
     super(props);
     this.state = {
       pageTitle: 'Sidecar',
-      // drinks: Object.keys(initialDrinks).map(key => initialDrinks[key]),
-      drinks: [],
+      drinks: Object.keys(initialDrinks).map(key => initialDrinks[key]),
       getCurrentDrink: this.getCurrentDrink,
       getTags: this.getTags,
       getCurrentTag: this.getCurrentTag,
