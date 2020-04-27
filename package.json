@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next -p 4001",
+    "dev": "next dev -p 4001",
     "dev:static": "next build && next export && http-server out",
     "build": "next build",
     "start": "next start",
@@ -16,21 +16,21 @@
   "author": "Keith J. Grant",
   "license": "ISC",
   "dependencies": {
-    "@mdx-js/loader": "^1.5.1",
-    "@next/mdx": "^9.1.1",
+    "@mdx-js/loader": "^1.5.9",
+    "@next/mdx": "^9.3.5",
     "@zeit/next-sass": "^1.0.1",
     "next": "^9.3.5",
-    "node-sass": "^4.12.0",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-markdown": "^4.2.2"
+    "node-sass": "^4.14.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.10.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
     "http-server": "^0.11.1",
-    "markdown-to-json": "^0.5.1"
+    "markdown-to-json": "^0.5.4"
   }
 }
